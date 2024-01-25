@@ -1,0 +1,248 @@
+{
+  "mode": {
+    "sections": [
+      {
+        "display_label": "Call Information",
+        "sequence_number": 1,
+        "tab_traversal": 2,
+        "api_name": "Call Information",
+        "column_count": 1,
+        "name": "Call Information",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "Who_Id"
+            }
+          },
+          {
+            "sequence_number": 2,
+            "field": {
+              "api_name": "What_Id"
+            }
+          },
+          {
+            "sequence_number": 3,
+            "field": {
+              "api_name": "Call_Type"
+            }
+          },
+          {
+            "sequence_number": 4,
+            "field": {
+              "api_name": "Outgoing_Call_Status"
+            }
+          },
+          {
+            "sequence_number": 5,
+            "field": {
+              "api_name": "Call_Start_Time"
+            }
+          },
+          {
+            "sequence_number": 6,
+            "field": {
+              "api_name": "Call_Duration"
+            }
+          },
+          {
+            "sequence_number": 7,
+            "field": {
+              "api_name": "Owner"
+            }
+          },
+          {
+            "sequence_number": 7,
+            "field": {
+              "api_name": "Dialled_Number"
+            }
+          },
+          {
+            "sequence_number": 8,
+            "field": {
+              "api_name": "Subject"
+            }
+          },
+          {
+            "sequence_number": 8,
+            "field": {
+              "api_name": "Caller_ID"
+            }
+          },
+          {
+            "sequence_number": 9,
+            "field": {
+              "api_name": "Created_By"
+            }
+          },
+          {
+            "sequence_number": 10,
+            "field": {
+              "api_name": "Modified_By"
+            }
+          },
+          {
+            "sequence_number": 11,
+            "field": {
+              "api_name": "Created_Time"
+            }
+          },
+          {
+            "sequence_number": 12,
+            "field": {
+              "api_name": "Modified_Time"
+            }
+          },
+          {
+            "sequence_number": 13,
+            "field": {
+              "api_name": "Reminder"
+            }
+          },
+          {
+            "sequence_number": 14,
+            "field": {
+              "api_name": "Voice_Recording__s"
+            }
+          },
+          {
+            "sequence_number": 17,
+            "field": {
+              "api_name": "Call_Duration_in_seconds"
+            }
+          },
+          {
+            "sequence_number": 18,
+            "field": {
+              "api_name": "Scheduled_In_CRM"
+            }
+          },
+          {
+            "sequence_number": 19,
+            "field": {
+              "api_name": "CTI_Entry"
+            }
+          },
+          {
+            "sequence_number": 23,
+            "field": {
+              "api_name": "Tag"
+            }
+          },
+          {
+            "sequence_number": 27,
+            "field": {
+              "api_name": "Record_Status__s"
+            }
+          },
+          {
+            "sequence_number": 28,
+            "field": {
+              "api_name": "id"
+            }
+          }
+        ],
+        "type": "used"
+      },
+      {
+        "display_label": "Purpose Of Outgoing Call",
+        "sequence_number": 2,
+        "tab_traversal": 2,
+        "api_name": "Purpose Of Outgoing Call",
+        "column_count": 1,
+        "name": "Purpose Of Outgoing Call",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "Call_Purpose"
+            }
+          },
+          {
+            "sequence_number": 2,
+            "field": {
+              "api_name": "Call_Agenda"
+            }
+          }
+        ],
+        "type": "used"
+      },
+      {
+        "display_label": "Outcome Of Outgoing Call",
+        "sequence_number": 3,
+        "tab_traversal": 2,
+        "api_name": "Outcome Of Outgoing Call",
+        "column_count": 1,
+        "name": "Outcome Of Outgoing Call",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "Call_Result"
+            }
+          },
+          {
+            "sequence_number": 2,
+            "field": {
+              "api_name": "Description"
+            }
+          }
+        ],
+        "type": "used"
+      },
+      {
+        "display_label": "Reason For Incoming Call",
+        "sequence_number": 4,
+        "tab_traversal": 2,
+        "api_name": "Reason For Incoming Call",
+        "column_count": 1,
+        "name": "Reason For Incoming Call",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "Description"
+            }
+          }
+        ],
+        "type": "used"
+      }
+    ]
+  },
+  "show_business_card": true,
+  "api_name": "Standard__s",
+  "name": "Standard",
+  "profile_properties": [
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "Administrator"
+      }
+    },
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "Standard"
+      }
+    },
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "ZDKProfile"
+      }
+    },
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "a"
+      }
+    }
+  ],
+  "source": "crm",
+  "fields": null,
+  "status": "active"
+}

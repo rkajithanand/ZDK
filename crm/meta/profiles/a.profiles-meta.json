@@ -1,0 +1,3676 @@
+{
+  "display_label": "a",
+  "api_name": "a",
+  "permissions": [
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Leads"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Leads"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Leads"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Contacts"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Contacts"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Contacts"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Accounts"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Accounts"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Accounts"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Deals"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Deals"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Deals"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_Tasks",
+      "customizable": true,
+      "module_name": "Tasks",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_Tasks",
+      "customizable": true,
+      "module_name": "Tasks",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Tasks"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_Tasks",
+      "customizable": true,
+      "module_name": "Tasks",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Tasks"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_Tasks",
+      "customizable": true,
+      "module_name": "Tasks",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Tasks"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_Events",
+      "customizable": true,
+      "module_name": "Events",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_Events",
+      "customizable": true,
+      "module_name": "Events",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Events"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_Events",
+      "customizable": true,
+      "module_name": "Events",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Events"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_Events",
+      "customizable": true,
+      "module_name": "Events",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Events"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_Calls",
+      "customizable": true,
+      "module_name": "Calls",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_Calls",
+      "customizable": true,
+      "module_name": "Calls",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Calls"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_Calls",
+      "customizable": true,
+      "module_name": "Calls",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Calls"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_Calls",
+      "customizable": true,
+      "module_name": "Calls",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Calls"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_Reports",
+      "customizable": true,
+      "module_name": "Reports",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Manage",
+      "name": "Crm_Implied_Manage_Reports",
+      "customizable": true,
+      "module_name": "Reports",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Reports"
+      ]
+    },
+    {
+      "display_label": "Schedule",
+      "name": "Crm_Implied_Schedule_Reports",
+      "customizable": true,
+      "module_name": "Reports",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Reports"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_Dashboards",
+      "customizable": true,
+      "module_name": "Analytics",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Manage",
+      "name": "Crm_Implied_Manage_Dashboards",
+      "customizable": true,
+      "module_name": "Analytics",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Dashboards"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_Products",
+      "customizable": true,
+      "module_name": "Products",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_Products",
+      "customizable": true,
+      "module_name": "Products",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Products"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_Products",
+      "customizable": true,
+      "module_name": "Products",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Products"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_Products",
+      "customizable": true,
+      "module_name": "Products",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Products"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_Quotes",
+      "customizable": true,
+      "module_name": "Quotes",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_Quotes",
+      "customizable": true,
+      "module_name": "Quotes",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Quotes"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_Quotes",
+      "customizable": true,
+      "module_name": "Quotes",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Quotes"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_Quotes",
+      "customizable": true,
+      "module_name": "Quotes",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Quotes"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_SalesOrders",
+      "customizable": true,
+      "module_name": "Sales_Orders",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_SalesOrders",
+      "customizable": true,
+      "module_name": "Sales_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_SalesOrders"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_SalesOrders",
+      "customizable": true,
+      "module_name": "Sales_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_SalesOrders"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_SalesOrders",
+      "customizable": true,
+      "module_name": "Sales_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_SalesOrders"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_PurchaseOrders",
+      "customizable": true,
+      "module_name": "Purchase_Orders",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_PurchaseOrders",
+      "customizable": true,
+      "module_name": "Purchase_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PurchaseOrders"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_PurchaseOrders",
+      "customizable": true,
+      "module_name": "Purchase_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PurchaseOrders"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_PurchaseOrders",
+      "customizable": true,
+      "module_name": "Purchase_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PurchaseOrders"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_Invoices",
+      "customizable": true,
+      "module_name": "Invoices",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_Invoices",
+      "customizable": true,
+      "module_name": "Invoices",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Invoices"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_Invoices",
+      "customizable": true,
+      "module_name": "Invoices",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Invoices"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_Invoices",
+      "customizable": true,
+      "module_name": "Invoices",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Invoices"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_Campaigns",
+      "customizable": true,
+      "module_name": "Campaigns",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_Campaigns",
+      "customizable": true,
+      "module_name": "Campaigns",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Campaigns"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_Campaigns",
+      "customizable": true,
+      "module_name": "Campaigns",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Campaigns"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_Campaigns",
+      "customizable": true,
+      "module_name": "Campaigns",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Campaigns"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Vendors"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Vendors"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Vendors"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_PriceBooks",
+      "customizable": true,
+      "module_name": "Price_Books",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_PriceBooks",
+      "customizable": true,
+      "module_name": "Price_Books",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PriceBooks"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_PriceBooks",
+      "customizable": true,
+      "module_name": "Price_Books",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PriceBooks"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_PriceBooks",
+      "customizable": true,
+      "module_name": "Price_Books",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PriceBooks"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_Cases",
+      "customizable": true,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_Cases",
+      "customizable": true,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Cases"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_Cases",
+      "customizable": true,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Cases"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_Cases",
+      "customizable": true,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Cases"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_Solutions",
+      "customizable": true,
+      "module_name": "Solutions",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_Solutions",
+      "customizable": true,
+      "module_name": "Solutions",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Solutions"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_Solutions",
+      "customizable": true,
+      "module_name": "Solutions",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Solutions"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_Solutions",
+      "customizable": true,
+      "module_name": "Solutions",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Solutions"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_LinkingModule4"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_LinkingModule4"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_LinkingModule4"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_Notes",
+      "customizable": true,
+      "module_name": "Notes",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_Notes",
+      "customizable": true,
+      "module_name": "Notes",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Notes"
+      ]
+    },
+    {
+      "display_label": "Edit",
+      "name": "Crm_Implied_Edit_Notes",
+      "customizable": true,
+      "module_name": "Notes",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Notes"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_Notes",
+      "customizable": true,
+      "module_name": "Notes",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Notes"
+      ]
+    },
+    {
+      "display_label": "View",
+      "name": "Crm_Implied_View_Attachments",
+      "customizable": true,
+      "module_name": "Attachments",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Create",
+      "name": "Crm_Implied_Create_Attachments",
+      "customizable": true,
+      "module_name": "Attachments",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Attachments"
+      ]
+    },
+    {
+      "display_label": "Delete",
+      "name": "Crm_Implied_Delete_Attachments",
+      "customizable": true,
+      "module_name": "Attachments",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Attachments"
+      ]
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Import_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Leads",
+        "Crm_Implied_View_Leads"
+      ]
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Import_My_Leads",
+      "customizable": null,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Import_MyOrg_Leads",
+      "customizable": null,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Import_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Contacts",
+        "Crm_Implied_View_Contacts"
+      ]
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Import_My_Contacts",
+      "customizable": null,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Import_MyOrg_Contacts",
+      "customizable": null,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Accounts",
+      "name": "Crm_Implied_Import_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Accounts",
+        "Crm_Implied_View_Accounts"
+      ]
+    },
+    {
+      "display_label": "Accounts",
+      "name": "Crm_Implied_Import_My_Accounts",
+      "customizable": null,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Accounts",
+      "name": "Crm_Implied_Import_MyOrg_Accounts",
+      "customizable": null,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_Import_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Deals",
+        "Crm_Implied_View_Deals"
+      ]
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_Import_My_Deals",
+      "customizable": null,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_Import_MyOrg_Deals",
+      "customizable": null,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Tasks",
+      "name": "Crm_Implied_Import_Tasks",
+      "customizable": true,
+      "module_name": "Tasks",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Tasks"
+      ]
+    },
+    {
+      "display_label": "Meetings",
+      "name": "Crm_Implied_Import_Events",
+      "customizable": true,
+      "module_name": "Events",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Events",
+        "Crm_Implied_View_Events"
+      ]
+    },
+    {
+      "display_label": "Meetings",
+      "name": "Crm_Implied_Import_My_Events",
+      "customizable": null,
+      "module_name": "Events",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Products",
+      "name": "Crm_Implied_Import_Products",
+      "customizable": true,
+      "module_name": "Products",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Products",
+        "Crm_Implied_View_Products"
+      ]
+    },
+    {
+      "display_label": "Products",
+      "name": "Crm_Implied_Import_My_Products",
+      "customizable": null,
+      "module_name": "Products",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Products",
+      "name": "Crm_Implied_Import_MyOrg_Products",
+      "customizable": null,
+      "module_name": "Products",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Campaigns",
+      "name": "Crm_Implied_Import_Campaigns",
+      "customizable": true,
+      "module_name": "Campaigns",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Campaigns",
+        "Crm_Implied_View_Campaigns"
+      ]
+    },
+    {
+      "display_label": "Campaigns",
+      "name": "Crm_Implied_Import_My_Campaigns",
+      "customizable": null,
+      "module_name": "Campaigns",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Campaigns",
+      "name": "Crm_Implied_Import_MyOrg_Campaigns",
+      "customizable": null,
+      "module_name": "Campaigns",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_Import_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Vendors",
+        "Crm_Implied_View_Vendors"
+      ]
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_Import_My_Vendors",
+      "customizable": null,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_Import_MyOrg_Vendors",
+      "customizable": null,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Price Books",
+      "name": "Crm_Implied_Import_PriceBooks",
+      "customizable": true,
+      "module_name": "Price_Books",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_PriceBooks",
+        "Crm_Implied_View_PriceBooks"
+      ]
+    },
+    {
+      "display_label": "Price Books",
+      "name": "Crm_Implied_Import_My_PriceBooks",
+      "customizable": null,
+      "module_name": "Price_Books",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Price Books",
+      "name": "Crm_Implied_Import_MyOrg_PriceBooks",
+      "customizable": null,
+      "module_name": "Price_Books",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Cases",
+      "name": "Crm_Implied_Import_Cases",
+      "customizable": true,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Cases",
+        "Crm_Implied_View_Cases"
+      ]
+    },
+    {
+      "display_label": "Cases",
+      "name": "Crm_Implied_Import_My_Cases",
+      "customizable": null,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Cases",
+      "name": "Crm_Implied_Import_MyOrg_Cases",
+      "customizable": null,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Solutions",
+      "name": "Crm_Implied_Import_Solutions",
+      "customizable": true,
+      "module_name": "Solutions",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Solutions",
+        "Crm_Implied_View_Solutions"
+      ]
+    },
+    {
+      "display_label": "Solutions",
+      "name": "Crm_Implied_Import_My_Solutions",
+      "customizable": null,
+      "module_name": "Solutions",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Solutions",
+      "name": "Crm_Implied_Import_MyOrg_Solutions",
+      "customizable": null,
+      "module_name": "Solutions",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Leads X Contacts",
+      "name": "Crm_Implied_Import_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_LinkingModule4"
+      ]
+    },
+    {
+      "display_label": "Leads X Contacts",
+      "name": "Crm_Implied_Import_My_LinkingModule4",
+      "customizable": null,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Leads X Contacts",
+      "name": "Crm_Implied_Import_MyOrg_LinkingModule4",
+      "customizable": null,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Export_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Leads"
+      ]
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Export_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Contacts"
+      ]
+    },
+    {
+      "display_label": "Accounts",
+      "name": "Crm_Implied_Export_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Accounts"
+      ]
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_Export_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Deals"
+      ]
+    },
+    {
+      "display_label": "Tasks",
+      "name": "Crm_Implied_Export_Tasks",
+      "customizable": true,
+      "module_name": "Tasks",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Tasks"
+      ]
+    },
+    {
+      "display_label": "Meetings",
+      "name": "Crm_Implied_Export_Events",
+      "customizable": true,
+      "module_name": "Events",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Events"
+      ]
+    },
+    {
+      "display_label": "Calls",
+      "name": "Crm_Implied_Export_Calls",
+      "customizable": true,
+      "module_name": "Calls",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Calls"
+      ]
+    },
+    {
+      "display_label": "Products",
+      "name": "Crm_Implied_Export_Products",
+      "customizable": true,
+      "module_name": "Products",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Products"
+      ]
+    },
+    {
+      "display_label": "Quotes",
+      "name": "Crm_Implied_Export_Quotes",
+      "customizable": true,
+      "module_name": "Quotes",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Quotes"
+      ]
+    },
+    {
+      "display_label": "Sales Orders",
+      "name": "Crm_Implied_Export_SalesOrders",
+      "customizable": true,
+      "module_name": "Sales_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_SalesOrders"
+      ]
+    },
+    {
+      "display_label": "Purchase Orders",
+      "name": "Crm_Implied_Export_PurchaseOrders",
+      "customizable": true,
+      "module_name": "Purchase_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PurchaseOrders"
+      ]
+    },
+    {
+      "display_label": "Invoices",
+      "name": "Crm_Implied_Export_Invoices",
+      "customizable": true,
+      "module_name": "Invoices",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Invoices"
+      ]
+    },
+    {
+      "display_label": "Campaigns",
+      "name": "Crm_Implied_Export_Campaigns",
+      "customizable": true,
+      "module_name": "Campaigns",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Campaigns"
+      ]
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_Export_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Vendors"
+      ]
+    },
+    {
+      "display_label": "Price Books",
+      "name": "Crm_Implied_Export_PriceBooks",
+      "customizable": true,
+      "module_name": "Price_Books",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PriceBooks"
+      ]
+    },
+    {
+      "display_label": "Cases",
+      "name": "Crm_Implied_Export_Cases",
+      "customizable": true,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Cases"
+      ]
+    },
+    {
+      "display_label": "Solutions",
+      "name": "Crm_Implied_Export_Solutions",
+      "customizable": true,
+      "module_name": "Solutions",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Solutions"
+      ]
+    },
+    {
+      "display_label": "Forecasts",
+      "name": "Crm_Implied_Export_Forecasts",
+      "customizable": true,
+      "module_name": "Forecasts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Forecasts"
+      ]
+    },
+    {
+      "display_label": "Visits",
+      "name": "Crm_Implied_Export_Visits",
+      "customizable": true,
+      "module_name": "Visits",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Visits"
+      ]
+    },
+    {
+      "display_label": "Users",
+      "name": "Crm_Implied_Export_Users",
+      "customizable": true,
+      "module_name": "users",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Notes",
+      "name": "Crm_Implied_Export_Notes",
+      "customizable": true,
+      "module_name": "Notes",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Notes"
+      ]
+    },
+    {
+      "display_label": "Competitors",
+      "name": "Crm_Implied_Export_Competitors",
+      "customizable": true,
+      "module_name": "Competitors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Deals"
+      ]
+    },
+    {
+      "display_label": "Leads X Contacts",
+      "name": "Crm_Implied_Export_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_LinkingModule4"
+      ]
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Send_Mail_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Leads"
+      ]
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Send_Mail_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Contacts"
+      ]
+    },
+    {
+      "display_label": "Accounts",
+      "name": "Crm_Implied_Send_Mail_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Accounts"
+      ]
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_Send_Mail_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Deals"
+      ]
+    },
+    {
+      "display_label": "Quotes",
+      "name": "Crm_Implied_Send_Mail_Quotes",
+      "customizable": true,
+      "module_name": "Quotes",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Quotes"
+      ]
+    },
+    {
+      "display_label": "Sales Orders",
+      "name": "Crm_Implied_Send_Mail_SalesOrders",
+      "customizable": true,
+      "module_name": "Sales_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_SalesOrders"
+      ]
+    },
+    {
+      "display_label": "Purchase Orders",
+      "name": "Crm_Implied_Send_Mail_PurchaseOrders",
+      "customizable": true,
+      "module_name": "Purchase_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PurchaseOrders"
+      ]
+    },
+    {
+      "display_label": "Invoices",
+      "name": "Crm_Implied_Send_Mail_Invoices",
+      "customizable": true,
+      "module_name": "Invoices",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Invoices"
+      ]
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_Send_Mail_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Vendors"
+      ]
+    },
+    {
+      "display_label": "Leads X Contacts",
+      "name": "Crm_Implied_Send_Mail_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_LinkingModule4"
+      ]
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Mass_Email_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Send_Mail_Leads"
+      ]
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Mass_Email_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Send_Mail_Contacts"
+      ]
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_Mass_Email_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Send_Mail_Deals"
+      ]
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_Mass_Email_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Send_Mail_Vendors"
+      ]
+    },
+    {
+      "display_label": "Leads X Contacts",
+      "name": "Crm_Implied_Mass_Email_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Send_Mail_LinkingModule4"
+      ]
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_MailMerge_Mail_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Leads"
+      ]
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_MailMerge_Mail_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Contacts"
+      ]
+    },
+    {
+      "display_label": "Accounts",
+      "name": "Crm_Implied_MailMerge_Mail_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Accounts"
+      ]
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_MailMerge_Mail_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Deals"
+      ]
+    },
+    {
+      "display_label": "Quotes",
+      "name": "Crm_Implied_MailMerge_Mail_Quotes",
+      "customizable": true,
+      "module_name": "Quotes",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Sales Orders",
+      "name": "Crm_Implied_MailMerge_Mail_SalesOrders",
+      "customizable": true,
+      "module_name": "Sales_Orders",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Purchase Orders",
+      "name": "Crm_Implied_MailMerge_Mail_PurchaseOrders",
+      "customizable": true,
+      "module_name": "Purchase_Orders",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Invoices",
+      "name": "Crm_Implied_MailMerge_Mail_Invoices",
+      "customizable": true,
+      "module_name": "Invoices",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Leads X Contacts",
+      "name": "Crm_Implied_MailMerge_Mail_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_LinkingModule4"
+      ]
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Delete_Mail_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Leads",
+        "Crm_Implied_Send_Mail_Leads"
+      ]
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Delete_Mail_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Contacts",
+        "Crm_Implied_Send_Mail_Contacts"
+      ]
+    },
+    {
+      "display_label": "Accounts",
+      "name": "Crm_Implied_Delete_Mail_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Send_Mail_Accounts"
+      ]
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_Delete_Mail_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Deals",
+        "Crm_Implied_Send_Mail_Deals"
+      ]
+    },
+    {
+      "display_label": "Quotes",
+      "name": "Crm_Implied_Delete_Mail_Quotes",
+      "customizable": true,
+      "module_name": "Quotes",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Quotes",
+        "Crm_Implied_Send_Mail_Quotes"
+      ]
+    },
+    {
+      "display_label": "Sales Orders",
+      "name": "Crm_Implied_Delete_Mail_SalesOrders",
+      "customizable": true,
+      "module_name": "Sales_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_SalesOrders",
+        "Crm_Implied_Send_Mail_SalesOrders"
+      ]
+    },
+    {
+      "display_label": "Purchase Orders",
+      "name": "Crm_Implied_Delete_Mail_PurchaseOrders",
+      "customizable": true,
+      "module_name": "Purchase_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PurchaseOrders",
+        "Crm_Implied_Send_Mail_PurchaseOrders"
+      ]
+    },
+    {
+      "display_label": "Invoices",
+      "name": "Crm_Implied_Delete_Mail_Invoices",
+      "customizable": true,
+      "module_name": "Invoices",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Invoices",
+        "Crm_Implied_Send_Mail_Invoices"
+      ]
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_Delete_Mail_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Send_Mail_Vendors"
+      ]
+    },
+    {
+      "display_label": "Leads X Contacts",
+      "name": "Crm_Implied_Delete_Mail_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Send_Mail_LinkingModule4"
+      ]
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Mass_Update_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Edit_Leads"
+      ]
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Mass_Update_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Edit_Contacts"
+      ]
+    },
+    {
+      "display_label": "Accounts",
+      "name": "Crm_Implied_Mass_Update_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Edit_Accounts"
+      ]
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_Mass_Update_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Edit_Deals"
+      ]
+    },
+    {
+      "display_label": "Tasks",
+      "name": "Crm_Implied_Mass_Update_Tasks",
+      "customizable": true,
+      "module_name": "Tasks",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Mass_Update_Activities"
+      ]
+    },
+    {
+      "display_label": "Meetings",
+      "name": "Crm_Implied_Mass_Update_Events",
+      "customizable": true,
+      "module_name": "Events",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Mass_Update_Activities"
+      ]
+    },
+    {
+      "display_label": "Calls",
+      "name": "Crm_Implied_Mass_Update_Calls",
+      "customizable": true,
+      "module_name": "Calls",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Mass_Update_Activities"
+      ]
+    },
+    {
+      "display_label": "Products",
+      "name": "Crm_Implied_Mass_Update_Products",
+      "customizable": true,
+      "module_name": "Products",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Edit_Products"
+      ]
+    },
+    {
+      "display_label": "Quotes",
+      "name": "Crm_Implied_Mass_Update_Quotes",
+      "customizable": true,
+      "module_name": "Quotes",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Edit_Quotes"
+      ]
+    },
+    {
+      "display_label": "Sales Orders",
+      "name": "Crm_Implied_Mass_Update_SalesOrders",
+      "customizable": true,
+      "module_name": "Sales_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Edit_SalesOrders"
+      ]
+    },
+    {
+      "display_label": "Purchase Orders",
+      "name": "Crm_Implied_Mass_Update_PurchaseOrders",
+      "customizable": true,
+      "module_name": "Purchase_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Edit_PurchaseOrders"
+      ]
+    },
+    {
+      "display_label": "Invoices",
+      "name": "Crm_Implied_Mass_Update_Invoices",
+      "customizable": true,
+      "module_name": "Invoices",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Edit_Invoices"
+      ]
+    },
+    {
+      "display_label": "Campaigns",
+      "name": "Crm_Implied_Mass_Update_Campaigns",
+      "customizable": true,
+      "module_name": "Campaigns",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Edit_Campaigns"
+      ]
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_Mass_Update_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Edit_Vendors"
+      ]
+    },
+    {
+      "display_label": "Price Books",
+      "name": "Crm_Implied_Mass_Update_PriceBooks",
+      "customizable": true,
+      "module_name": "Price_Books",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Edit_PriceBooks"
+      ]
+    },
+    {
+      "display_label": "Cases",
+      "name": "Crm_Implied_Mass_Update_Cases",
+      "customizable": true,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Edit_Cases"
+      ]
+    },
+    {
+      "display_label": "Solutions",
+      "name": "Crm_Implied_Mass_Update_Solutions",
+      "customizable": true,
+      "module_name": "Solutions",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Edit_Solutions"
+      ]
+    },
+    {
+      "display_label": "Leads X Contacts",
+      "name": "Crm_Implied_Mass_Update_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Edit_LinkingModule4"
+      ]
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Mass_Delete_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Delete_Leads"
+      ]
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Mass_Delete_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Delete_Contacts"
+      ]
+    },
+    {
+      "display_label": "Accounts",
+      "name": "Crm_Implied_Mass_Delete_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Delete_Accounts"
+      ]
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_Mass_Delete_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Delete_Deals"
+      ]
+    },
+    {
+      "display_label": "Tasks",
+      "name": "Crm_Implied_Mass_Delete_Tasks",
+      "customizable": true,
+      "module_name": "Tasks",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Mass_Delete_Activities"
+      ]
+    },
+    {
+      "display_label": "Meetings",
+      "name": "Crm_Implied_Mass_Delete_Events",
+      "customizable": true,
+      "module_name": "Events",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Mass_Delete_Activities"
+      ]
+    },
+    {
+      "display_label": "Calls",
+      "name": "Crm_Implied_Mass_Delete_Calls",
+      "customizable": true,
+      "module_name": "Calls",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Mass_Delete_Activities"
+      ]
+    },
+    {
+      "display_label": "Products",
+      "name": "Crm_Implied_Mass_Delete_Products",
+      "customizable": true,
+      "module_name": "Products",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Delete_Products"
+      ]
+    },
+    {
+      "display_label": "Campaigns",
+      "name": "Crm_Implied_Mass_Delete_Campaigns",
+      "customizable": true,
+      "module_name": "Campaigns",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Delete_Campaigns"
+      ]
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_Mass_Delete_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Delete_Vendors"
+      ]
+    },
+    {
+      "display_label": "Price Books",
+      "name": "Crm_Implied_Mass_Delete_PriceBooks",
+      "customizable": true,
+      "module_name": "Price_Books",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Delete_PriceBooks"
+      ]
+    },
+    {
+      "display_label": "Cases",
+      "name": "Crm_Implied_Mass_Delete_Cases",
+      "customizable": true,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Delete_Cases"
+      ]
+    },
+    {
+      "display_label": "Solutions",
+      "name": "Crm_Implied_Mass_Delete_Solutions",
+      "customizable": true,
+      "module_name": "Solutions",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Delete_Solutions"
+      ]
+    },
+    {
+      "display_label": "Leads X Contacts",
+      "name": "Crm_Implied_Mass_Delete_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Delete_LinkingModule4"
+      ]
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Change_Owner_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Leads"
+      ]
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Change_Owner_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Contacts"
+      ]
+    },
+    {
+      "display_label": "Accounts",
+      "name": "Crm_Implied_Change_Owner_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Accounts"
+      ]
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_Change_Owner_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Deals"
+      ]
+    },
+    {
+      "display_label": "Tasks",
+      "name": "Crm_Implied_Change_Owner_Tasks",
+      "customizable": true,
+      "module_name": "Tasks",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Tasks"
+      ]
+    },
+    {
+      "display_label": "Meetings",
+      "name": "Crm_Implied_Change_Owner_Events",
+      "customizable": true,
+      "module_name": "Events",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Events"
+      ]
+    },
+    {
+      "display_label": "Calls",
+      "name": "Crm_Implied_Change_Owner_Calls",
+      "customizable": true,
+      "module_name": "Calls",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Calls"
+      ]
+    },
+    {
+      "display_label": "Products",
+      "name": "Crm_Implied_Change_Owner_Products",
+      "customizable": true,
+      "module_name": "Products",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Products"
+      ]
+    },
+    {
+      "display_label": "Quotes",
+      "name": "Crm_Implied_Change_Owner_Quotes",
+      "customizable": true,
+      "module_name": "Quotes",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Quotes"
+      ]
+    },
+    {
+      "display_label": "Sales Orders",
+      "name": "Crm_Implied_Change_Owner_SalesOrders",
+      "customizable": true,
+      "module_name": "Sales_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_SalesOrders"
+      ]
+    },
+    {
+      "display_label": "Purchase Orders",
+      "name": "Crm_Implied_Change_Owner_PurchaseOrders",
+      "customizable": true,
+      "module_name": "Purchase_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PurchaseOrders"
+      ]
+    },
+    {
+      "display_label": "Invoices",
+      "name": "Crm_Implied_Change_Owner_Invoices",
+      "customizable": true,
+      "module_name": "Invoices",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Invoices"
+      ]
+    },
+    {
+      "display_label": "Campaigns",
+      "name": "Crm_Implied_Change_Owner_Campaigns",
+      "customizable": true,
+      "module_name": "Campaigns",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Campaigns"
+      ]
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_Change_Owner_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Vendors"
+      ]
+    },
+    {
+      "display_label": "Price Books",
+      "name": "Crm_Implied_Change_Owner_PriceBooks",
+      "customizable": true,
+      "module_name": "Price_Books",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PriceBooks"
+      ]
+    },
+    {
+      "display_label": "Cases",
+      "name": "Crm_Implied_Change_Owner_Cases",
+      "customizable": true,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Cases"
+      ]
+    },
+    {
+      "display_label": "Solutions",
+      "name": "Crm_Implied_Change_Owner_Solutions",
+      "customizable": true,
+      "module_name": "Solutions",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Solutions"
+      ]
+    },
+    {
+      "display_label": "Leads X Contacts",
+      "name": "Crm_Implied_Change_Owner_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_LinkingModule4"
+      ]
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Mass_Transfer_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Change_Owner_Leads"
+      ]
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Mass_Transfer_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Change_Owner_Contacts"
+      ]
+    },
+    {
+      "display_label": "Accounts",
+      "name": "Crm_Implied_Mass_Transfer_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Change_Owner_Accounts"
+      ]
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_Mass_Transfer_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Change_Owner_Deals"
+      ]
+    },
+    {
+      "display_label": "Tasks",
+      "name": "Crm_Implied_Mass_Transfer_Tasks",
+      "customizable": true,
+      "module_name": "Tasks",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Mass_Transfer_Activities"
+      ]
+    },
+    {
+      "display_label": "Meetings",
+      "name": "Crm_Implied_Mass_Transfer_Events",
+      "customizable": true,
+      "module_name": "Events",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Mass_Transfer_Activities"
+      ]
+    },
+    {
+      "display_label": "Calls",
+      "name": "Crm_Implied_Mass_Transfer_Calls",
+      "customizable": true,
+      "module_name": "Calls",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Mass_Transfer_Activities"
+      ]
+    },
+    {
+      "display_label": "Products",
+      "name": "Crm_Implied_Mass_Transfer_Products",
+      "customizable": true,
+      "module_name": "Products",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Change_Owner_Products"
+      ]
+    },
+    {
+      "display_label": "Campaigns",
+      "name": "Crm_Implied_Mass_Transfer_Campaigns",
+      "customizable": true,
+      "module_name": "Campaigns",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Change_Owner_Campaigns"
+      ]
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_Mass_Transfer_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Change_Owner_Vendors"
+      ]
+    },
+    {
+      "display_label": "Price Books",
+      "name": "Crm_Implied_Mass_Transfer_PriceBooks",
+      "customizable": true,
+      "module_name": "Price_Books",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Change_Owner_PriceBooks"
+      ]
+    },
+    {
+      "display_label": "Cases",
+      "name": "Crm_Implied_Mass_Transfer_Cases",
+      "customizable": true,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Change_Owner_Cases"
+      ]
+    },
+    {
+      "display_label": "Solutions",
+      "name": "Crm_Implied_Mass_Transfer_Solutions",
+      "customizable": true,
+      "module_name": "Solutions",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Change_Owner_Solutions"
+      ]
+    },
+    {
+      "display_label": "Leads X Contacts",
+      "name": "Crm_Implied_Mass_Transfer_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Change_Owner_LinkingModule4"
+      ]
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Convert_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Leads"
+      ]
+    },
+    {
+      "display_label": "Quotes",
+      "name": "Crm_Implied_Convert_Quotes",
+      "customizable": true,
+      "module_name": "Quotes",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Quotes"
+      ]
+    },
+    {
+      "display_label": "Sales Orders",
+      "name": "Crm_Implied_Convert_SalesOrders",
+      "customizable": true,
+      "module_name": "Sales_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_SalesOrders"
+      ]
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Mass_Convert_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Convert_Leads"
+      ]
+    },
+    {
+      "display_label": "Quotes",
+      "name": "Crm_Implied_Mass_Convert_Quotes",
+      "customizable": true,
+      "module_name": "Quotes",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Convert_Quotes"
+      ]
+    },
+    {
+      "display_label": "Sales Orders",
+      "name": "Crm_Implied_Mass_Convert_SalesOrders",
+      "customizable": true,
+      "module_name": "Sales_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Convert_SalesOrders"
+      ]
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Share_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Leads"
+      ]
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Share_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Contacts"
+      ]
+    },
+    {
+      "display_label": "Accounts",
+      "name": "Crm_Implied_Share_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Accounts"
+      ]
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_Share_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Deals"
+      ]
+    },
+    {
+      "display_label": "Products",
+      "name": "Crm_Implied_Share_Products",
+      "customizable": true,
+      "module_name": "Products",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Products"
+      ]
+    },
+    {
+      "display_label": "Quotes",
+      "name": "Crm_Implied_Share_Quotes",
+      "customizable": true,
+      "module_name": "Quotes",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Quotes"
+      ]
+    },
+    {
+      "display_label": "Sales Orders",
+      "name": "Crm_Implied_Share_SalesOrders",
+      "customizable": true,
+      "module_name": "Sales_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_SalesOrders"
+      ]
+    },
+    {
+      "display_label": "Purchase Orders",
+      "name": "Crm_Implied_Share_PurchaseOrders",
+      "customizable": true,
+      "module_name": "Purchase_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PurchaseOrders"
+      ]
+    },
+    {
+      "display_label": "Invoices",
+      "name": "Crm_Implied_Share_Invoices",
+      "customizable": true,
+      "module_name": "Invoices",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Invoices"
+      ]
+    },
+    {
+      "display_label": "Campaigns",
+      "name": "Crm_Implied_Share_Campaigns",
+      "customizable": true,
+      "module_name": "Campaigns",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Campaigns"
+      ]
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_Share_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Vendors"
+      ]
+    },
+    {
+      "display_label": "Price Books",
+      "name": "Crm_Implied_Share_PriceBooks",
+      "customizable": true,
+      "module_name": "Price_Books",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PriceBooks"
+      ]
+    },
+    {
+      "display_label": "Cases",
+      "name": "Crm_Implied_Share_Cases",
+      "customizable": true,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Cases"
+      ]
+    },
+    {
+      "display_label": "Solutions",
+      "name": "Crm_Implied_Share_Solutions",
+      "customizable": true,
+      "module_name": "Solutions",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Solutions"
+      ]
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Lock_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Leads"
+      ]
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Lock_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Contacts"
+      ]
+    },
+    {
+      "display_label": "Accounts",
+      "name": "Crm_Implied_Lock_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Accounts"
+      ]
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_Lock_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Deals"
+      ]
+    },
+    {
+      "display_label": "Products",
+      "name": "Crm_Implied_Lock_Products",
+      "customizable": true,
+      "module_name": "Products",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Products"
+      ]
+    },
+    {
+      "display_label": "Quotes",
+      "name": "Crm_Implied_Lock_Quotes",
+      "customizable": true,
+      "module_name": "Quotes",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Quotes"
+      ]
+    },
+    {
+      "display_label": "Sales Orders",
+      "name": "Crm_Implied_Lock_SalesOrders",
+      "customizable": true,
+      "module_name": "Sales_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_SalesOrders"
+      ]
+    },
+    {
+      "display_label": "Purchase Orders",
+      "name": "Crm_Implied_Lock_PurchaseOrders",
+      "customizable": true,
+      "module_name": "Purchase_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PurchaseOrders"
+      ]
+    },
+    {
+      "display_label": "Invoices",
+      "name": "Crm_Implied_Lock_Invoices",
+      "customizable": true,
+      "module_name": "Invoices",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Invoices"
+      ]
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_Lock_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Vendors"
+      ]
+    },
+    {
+      "display_label": "Price Books",
+      "name": "Crm_Implied_Lock_PriceBooks",
+      "customizable": true,
+      "module_name": "Price_Books",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PriceBooks"
+      ]
+    },
+    {
+      "display_label": "Cases",
+      "name": "Crm_Implied_Lock_Cases",
+      "customizable": true,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Cases"
+      ]
+    },
+    {
+      "display_label": "Solutions",
+      "name": "Crm_Implied_Lock_Solutions",
+      "customizable": true,
+      "module_name": "Solutions",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Solutions"
+      ]
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Print_View_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Leads"
+      ]
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Print_View_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Contacts"
+      ]
+    },
+    {
+      "display_label": "Accounts",
+      "name": "Crm_Implied_Print_View_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Accounts"
+      ]
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_Print_View_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Deals"
+      ]
+    },
+    {
+      "display_label": "Tasks",
+      "name": "Crm_Implied_Print_View_Tasks",
+      "customizable": true,
+      "module_name": "Tasks",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Print_View_Activities"
+      ]
+    },
+    {
+      "display_label": "Meetings",
+      "name": "Crm_Implied_Print_View_Events",
+      "customizable": true,
+      "module_name": "Events",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Print_View_Activities"
+      ]
+    },
+    {
+      "display_label": "Calls",
+      "name": "Crm_Implied_Print_View_Calls",
+      "customizable": true,
+      "module_name": "Calls",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Print_View_Activities"
+      ]
+    },
+    {
+      "display_label": "Products",
+      "name": "Crm_Implied_Print_View_Products",
+      "customizable": true,
+      "module_name": "Products",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Products"
+      ]
+    },
+    {
+      "display_label": "Quotes",
+      "name": "Crm_Implied_Print_View_Quotes",
+      "customizable": true,
+      "module_name": "Quotes",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Quotes"
+      ]
+    },
+    {
+      "display_label": "Sales Orders",
+      "name": "Crm_Implied_Print_View_SalesOrders",
+      "customizable": true,
+      "module_name": "Sales_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_SalesOrders"
+      ]
+    },
+    {
+      "display_label": "Purchase Orders",
+      "name": "Crm_Implied_Print_View_PurchaseOrders",
+      "customizable": true,
+      "module_name": "Purchase_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PurchaseOrders"
+      ]
+    },
+    {
+      "display_label": "Invoices",
+      "name": "Crm_Implied_Print_View_Invoices",
+      "customizable": true,
+      "module_name": "Invoices",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Invoices"
+      ]
+    },
+    {
+      "display_label": "Campaigns",
+      "name": "Crm_Implied_Print_View_Campaigns",
+      "customizable": true,
+      "module_name": "Campaigns",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Campaigns"
+      ]
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_Print_View_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Vendors"
+      ]
+    },
+    {
+      "display_label": "Price Books",
+      "name": "Crm_Implied_Print_View_PriceBooks",
+      "customizable": true,
+      "module_name": "Price_Books",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PriceBooks"
+      ]
+    },
+    {
+      "display_label": "Cases",
+      "name": "Crm_Implied_Print_View_Cases",
+      "customizable": true,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Cases"
+      ]
+    },
+    {
+      "display_label": "Solutions",
+      "name": "Crm_Implied_Print_View_Solutions",
+      "customizable": true,
+      "module_name": "Solutions",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Solutions"
+      ]
+    },
+    {
+      "display_label": "Visits",
+      "name": "Crm_Implied_Print_View_Visits",
+      "customizable": true,
+      "module_name": "Visits",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Visits"
+      ]
+    },
+    {
+      "display_label": "Leads X Contacts",
+      "name": "Crm_Implied_Print_View_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_LinkingModule4"
+      ]
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_ZohoSheet_View_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Leads",
+        "Crm_Implied_Edit_Leads"
+      ]
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_ZohoSheet_View_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Contacts",
+        "Crm_Implied_Edit_Contacts"
+      ]
+    },
+    {
+      "display_label": "Accounts",
+      "name": "Crm_Implied_ZohoSheet_View_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Accounts",
+        "Crm_Implied_Edit_Accounts"
+      ]
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_ZohoSheet_View_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Deals",
+        "Crm_Implied_Edit_Deals"
+      ]
+    },
+    {
+      "display_label": "Products",
+      "name": "Crm_Implied_ZohoSheet_View_Products",
+      "customizable": true,
+      "module_name": "Products",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Products",
+        "Crm_Implied_Edit_Products"
+      ]
+    },
+    {
+      "display_label": "Campaigns",
+      "name": "Crm_Implied_ZohoSheet_View_Campaigns",
+      "customizable": true,
+      "module_name": "Campaigns",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Campaigns",
+        "Crm_Implied_Edit_Campaigns"
+      ]
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_ZohoSheet_View_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Vendors",
+        "Crm_Implied_Edit_Vendors"
+      ]
+    },
+    {
+      "display_label": "Price Books",
+      "name": "Crm_Implied_ZohoSheet_View_PriceBooks",
+      "customizable": true,
+      "module_name": "Price_Books",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_PriceBooks",
+        "Crm_Implied_Edit_PriceBooks"
+      ]
+    },
+    {
+      "display_label": "Cases",
+      "name": "Crm_Implied_ZohoSheet_View_Cases",
+      "customizable": true,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Cases",
+        "Crm_Implied_Edit_Cases"
+      ]
+    },
+    {
+      "display_label": "Solutions",
+      "name": "Crm_Implied_ZohoSheet_View_Solutions",
+      "customizable": true,
+      "module_name": "Solutions",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Create_Solutions",
+        "Crm_Implied_Edit_Solutions"
+      ]
+    },
+    {
+      "display_label": "Leads X Contacts",
+      "name": "Crm_Implied_ZohoSheet_View_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Edit_LinkingModule4",
+        "Crm_Implied_Create_LinkingModule4"
+      ]
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Tags_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Leads"
+      ]
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Tags_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Contacts"
+      ]
+    },
+    {
+      "display_label": "Accounts",
+      "name": "Crm_Implied_Tags_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Accounts"
+      ]
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_Tags_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Deals"
+      ]
+    },
+    {
+      "display_label": "Tasks",
+      "name": "Crm_Implied_Tags_Tasks",
+      "customizable": true,
+      "module_name": "Tasks",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Tasks"
+      ]
+    },
+    {
+      "display_label": "Meetings",
+      "name": "Crm_Implied_Tags_Events",
+      "customizable": true,
+      "module_name": "Events",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Events"
+      ]
+    },
+    {
+      "display_label": "Calls",
+      "name": "Crm_Implied_Tags_Calls",
+      "customizable": true,
+      "module_name": "Calls",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Calls"
+      ]
+    },
+    {
+      "display_label": "Products",
+      "name": "Crm_Implied_Tags_Products",
+      "customizable": true,
+      "module_name": "Products",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Products"
+      ]
+    },
+    {
+      "display_label": "Quotes",
+      "name": "Crm_Implied_Tags_Quotes",
+      "customizable": true,
+      "module_name": "Quotes",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Quotes"
+      ]
+    },
+    {
+      "display_label": "Sales Orders",
+      "name": "Crm_Implied_Tags_SalesOrders",
+      "customizable": true,
+      "module_name": "Sales_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_SalesOrders"
+      ]
+    },
+    {
+      "display_label": "Purchase Orders",
+      "name": "Crm_Implied_Tags_PurchaseOrders",
+      "customizable": true,
+      "module_name": "Purchase_Orders",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PurchaseOrders"
+      ]
+    },
+    {
+      "display_label": "Invoices",
+      "name": "Crm_Implied_Tags_Invoices",
+      "customizable": true,
+      "module_name": "Invoices",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Invoices"
+      ]
+    },
+    {
+      "display_label": "Campaigns",
+      "name": "Crm_Implied_Tags_Campaigns",
+      "customizable": true,
+      "module_name": "Campaigns",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Campaigns"
+      ]
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_Tags_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Vendors"
+      ]
+    },
+    {
+      "display_label": "Price Books",
+      "name": "Crm_Implied_Tags_PriceBooks",
+      "customizable": true,
+      "module_name": "Price_Books",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_PriceBooks"
+      ]
+    },
+    {
+      "display_label": "Cases",
+      "name": "Crm_Implied_Tags_Cases",
+      "customizable": true,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Cases"
+      ]
+    },
+    {
+      "display_label": "Solutions",
+      "name": "Crm_Implied_Tags_Solutions",
+      "customizable": true,
+      "module_name": "Solutions",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Solutions"
+      ]
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Merge_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Leads"
+      ]
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Merge_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Contacts"
+      ]
+    },
+    {
+      "display_label": "Accounts",
+      "name": "Crm_Implied_Merge_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Accounts"
+      ]
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_Merge_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Deals"
+      ]
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_Merge_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_View_Vendors"
+      ]
+    },
+    {
+      "display_label": "Custom View",
+      "name": "Crm_Implied_Manage_CustomViews",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Manage Support Access",
+      "name": "Crm_Implied_Manage_Support_Access",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "crm.permission.list_subordinates_only",
+      "name": "Crm_Implied_List_Subordinate_Users",
+      "customizable": true,
+      "module_name": null,
+      "enabled": false,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Manage Users",
+      "name": "Crm_Implied_Manage_Users",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Subordinates only",
+      "name": "Crm_Implied_Manage_Subordinate_Users",
+      "customizable": true,
+      "module_name": null,
+      "enabled": false,
+      "parent_permissions": [
+        "Crm_Implied_Manage_Users"
+      ]
+    },
+    {
+      "display_label": "Manage Roles",
+      "name": "Crm_Implied_Manage_Roles",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Manage_Users"
+      ]
+    },
+    {
+      "display_label": "Manage Profiles",
+      "name": "Crm_Implied_Manage_Profiles",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": [
+        "Crm_Implied_Manage_Users"
+      ]
+    },
+    {
+      "display_label": "Manage Groups",
+      "name": "Crm_Implied_Manage_Groups",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Manage Data Sharing",
+      "name": "Crm_Implied_Manage_Data_Sharing",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Manage Compliance Settings",
+      "name": "Crm_Implied_Manage_Compliance_Settings",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Modules Customization",
+      "name": "Crm_Implied_Customize_Zoho_CRM",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Manage Portals",
+      "name": "Crm_Implied_Manage_ClientPortal",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Manage Portals Users",
+      "name": "Crm_Implied_Manage_ClientPortal_Users",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Manage Calendar Booking",
+      "name": "Crm_Implied_Manage_CalendarBooking",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Manage Currencies",
+      "name": "Crm_Implied_Manage_Currencies",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Email Integration ( POP3 / IMAP )",
+      "name": "Crm_Implied_Zoho_Mail_Integ",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "BCC Dropbox",
+      "name": "Crm_Implied_BCC_Dropbox",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Show Chat Bar",
+      "name": "Crm_Implied_Chat_Bar",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Email Templates",
+      "name": "Crm_Implied_Manage_Email_Templates",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Inventory Templates",
+      "name": "Crm_Implied_Manage_Inventory_Templates",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Mail Merge using Zoho Writer",
+      "name": "Crm_Implied_ZohoWriter_Addon",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Manage Automation",
+      "name": "Crm_Implied_Manage_Workflow",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Case Escalation Rules",
+      "name": "Crm_Implied_Case_Escalation_Rules",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Manage_AR_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Manage_AR_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Accounts",
+      "name": "Crm_Implied_Manage_AR_Accounts",
+      "customizable": true,
+      "module_name": "Accounts",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Deals",
+      "name": "Crm_Implied_Manage_AR_Deals",
+      "customizable": true,
+      "module_name": "Deals",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Tasks",
+      "name": "Crm_Implied_Manage_AR_Tasks",
+      "customizable": true,
+      "module_name": "Tasks",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Cases",
+      "name": "Crm_Implied_Manage_AR_Cases",
+      "customizable": true,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Leads X Contacts",
+      "name": "Crm_Implied_Manage_AR_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Web_To_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Web_To_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_Web_To_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Cases",
+      "name": "Crm_Implied_Web_To_Cases",
+      "customizable": true,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Leads X Contacts",
+      "name": "Crm_Implied_Web_To_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Leads",
+      "name": "Crm_Implied_Approve_Web_Leads",
+      "customizable": true,
+      "module_name": "Leads",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Contacts",
+      "name": "Crm_Implied_Approve_Web_Contacts",
+      "customizable": true,
+      "module_name": "Contacts",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Vendors",
+      "name": "Crm_Implied_Approve_Web_Vendors",
+      "customizable": true,
+      "module_name": "Vendors",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Cases",
+      "name": "Crm_Implied_Approve_Web_Cases",
+      "customizable": true,
+      "module_name": "Cases",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Leads X Contacts",
+      "name": "Crm_Implied_Approve_Web_LinkingModule4",
+      "customizable": true,
+      "module_name": "Leads_X_Contacts",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Unsubscription Link",
+      "name": "Crm_Implied_Manage_Unsubscribe_Form",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Migrate data from other CRM",
+      "name": "Crm_Implied_Data_Migration",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Import History",
+      "name": "Crm_Implied_Import_History",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "View Storage Details",
+      "name": "Crm_Implied_View_Storage_Usage",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Manage Sandbox",
+      "name": "Crm_Implied_Manage_Sandbox",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Phone Bridge",
+      "name": "Crm_Implied_Zoho_PhoneBridge_Integ",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Meeting",
+      "name": "Crm_Implied_Zohomeeting_View",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Manage Data Enrichment Settings",
+      "name": "Crm_Implied_Manage_Data_Enrichment",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Manage Extensibility",
+      "name": "Crm_Implied_Advanced_Dev_Access",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Manage Zoho CRM Variables",
+      "name": "Crm_Implied_Variables_Access",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Sync with Google Contact",
+      "name": "Crm_Implied_Gcontact_Sync",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Sync with Google Calendar",
+      "name": "Crm_Implied_Gcal_Sync",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Google Ads",
+      "name": "Crm_Implied_View_Google AdWords",
+      "customizable": true,
+      "module_name": "Google_AdWords",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Social Admin",
+      "name": "Crm_Implied_Social_Admin",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Social Tab",
+      "name": "Crm_Implied_View_Social",
+      "customizable": true,
+      "module_name": "Social",
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Personal Social Profiles",
+      "name": "Crm_Implied_Social_Integration",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Plug-in for Microsoft-Word",
+      "name": "Crm_Implied_MS_Office_Integ",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Zoho Mobile Apps Access",
+      "name": "Crm_Implied_Zoho_Mobile_Integ",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    },
+    {
+      "display_label": "Zoho CRM API Access",
+      "name": "Crm_Implied_Api_Access",
+      "customizable": true,
+      "module_name": null,
+      "enabled": true,
+      "parent_permissions": null
+    }
+  ],
+  "custom": true,
+  "name": "a",
+  "description": "tesitng"
+}

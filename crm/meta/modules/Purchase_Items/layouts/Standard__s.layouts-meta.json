@@ -1,0 +1,233 @@
+{
+  "mode": {
+    "sections": [
+      {
+        "display_label": "PurchaseItems Information",
+        "sequence_number": 1,
+        "tab_traversal": 2,
+        "api_name": "PurchaseItems Information",
+        "column_count": 2,
+        "name": "PurchaseItems Information",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "Sequence_Number"
+            }
+          },
+          {
+            "sequence_number": 14,
+            "field": {
+              "api_name": "Product_Name"
+            }
+          },
+          {
+            "sequence_number": 14,
+            "field": {
+              "api_name": "Price_Book_Name"
+            }
+          },
+          {
+            "sequence_number": 15,
+            "field": {
+              "api_name": "Description"
+            }
+          },
+          {
+            "sequence_number": 16,
+            "field": {
+              "api_name": "Quantity"
+            }
+          },
+          {
+            "sequence_number": 17,
+            "field": {
+              "api_name": "List_Price"
+            }
+          },
+          {
+            "sequence_number": 18,
+            "field": {
+              "api_name": "Total"
+            }
+          },
+          {
+            "sequence_number": 19,
+            "field": {
+              "api_name": "Discount"
+            }
+          },
+          {
+            "sequence_number": 20,
+            "field": {
+              "api_name": "Total_After_Discount"
+            }
+          },
+          {
+            "sequence_number": 21,
+            "field": {
+              "api_name": "Tax"
+            }
+          },
+          {
+            "sequence_number": 22,
+            "field": {
+              "api_name": "Net_Total"
+            }
+          },
+          {
+            "sequence_number": 23,
+            "field": {
+              "api_name": "Line_Tax"
+            }
+          }
+        ],
+        "type": "used"
+      }
+    ]
+  },
+  "show_business_card": true,
+  "api_name": "Standard__s",
+  "name": "Standard",
+  "profile_properties": [
+    {
+      "default": false,
+      "visible": true,
+      "profile": {
+        "api_name": "Administrator"
+      }
+    },
+    {
+      "default": false,
+      "visible": true,
+      "profile": {
+        "api_name": "Standard"
+      }
+    },
+    {
+      "default": false,
+      "visible": true,
+      "profile": {
+        "api_name": "ZDKProfile"
+      }
+    },
+    {
+      "default": false,
+      "visible": true,
+      "profile": {
+        "api_name": "a"
+      }
+    }
+  ],
+  "source": "crm",
+  "fields": {
+    "_data": [
+      {
+        "field": {
+          "api_name": "Description",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Line_Tax",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Net_Total",
+          "formula": {
+            "return_type": "currency",
+            "expression": "${Quantity}*${List_Price}-${Discount}+${Tax}"
+          }
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Tax",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Total_After_Discount",
+          "formula": {
+            "return_type": "currency",
+            "expression": "${Quantity}*${List_Price}-${Discount}"
+          }
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Discount",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Total",
+          "formula": {
+            "return_type": "currency",
+            "expression": "${Quantity}*${List_Price}"
+          }
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "List_Price",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Price_Book_Name",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Quantity",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Sequence_Number",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Product_Name",
+          "formula": null
+        },
+        "default_value": null,
+        "required": true
+      }
+    ]
+  },
+  "status": "active"
+}

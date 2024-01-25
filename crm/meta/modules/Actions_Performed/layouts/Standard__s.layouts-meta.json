@@ -1,0 +1,14 @@
+{
+  "mode": {
+    "sections": null
+  },
+  "show_business_card": true,
+  "api_name": "Standard__s",
+  "name": "Standard",
+  "profile_properties": [],
+  "source": "crm",
+  "fields": {
+    "_data": null
+  },
+  "status": "hidden"
+}

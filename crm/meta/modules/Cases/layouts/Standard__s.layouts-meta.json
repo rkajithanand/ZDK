@@ -1,0 +1,505 @@
+{
+  "mode": {
+    "sections": [
+      {
+        "display_label": "Case Image",
+        "sequence_number": 1,
+        "tab_traversal": 2,
+        "api_name": "Case Image",
+        "column_count": 1,
+        "name": "Record Image",
+        "section_fields": null,
+        "type": "used"
+      },
+      {
+        "display_label": "Case Information",
+        "sequence_number": 2,
+        "tab_traversal": 2,
+        "api_name": "Case Information",
+        "column_count": 2,
+        "name": "Case Information",
+        "section_fields": [
+          {
+            "sequence_number": 2,
+            "field": {
+              "api_name": "Owner"
+            }
+          },
+          {
+            "sequence_number": 3,
+            "field": {
+              "api_name": "Case_Number"
+            }
+          },
+          {
+            "sequence_number": 4,
+            "field": {
+              "api_name": "Status"
+            }
+          },
+          {
+            "sequence_number": 5,
+            "field": {
+              "api_name": "Product_Name"
+            }
+          },
+          {
+            "sequence_number": 6,
+            "field": {
+              "api_name": "Priority"
+            }
+          },
+          {
+            "sequence_number": 7,
+            "field": {
+              "api_name": "Type"
+            }
+          },
+          {
+            "sequence_number": 8,
+            "field": {
+              "api_name": "Case_Reason"
+            }
+          },
+          {
+            "sequence_number": 9,
+            "field": {
+              "api_name": "Case_Origin"
+            }
+          },
+          {
+            "sequence_number": 10,
+            "field": {
+              "api_name": "Subject"
+            }
+          },
+          {
+            "sequence_number": 11,
+            "field": {
+              "api_name": "Related_To"
+            }
+          },
+          {
+            "sequence_number": 12,
+            "field": {
+              "api_name": "No_of_comments"
+            }
+          },
+          {
+            "sequence_number": 13,
+            "field": {
+              "api_name": "Account_Name"
+            }
+          },
+          {
+            "sequence_number": 14,
+            "field": {
+              "api_name": "Reported_By"
+            }
+          },
+          {
+            "sequence_number": 15,
+            "field": {
+              "api_name": "Deal_Name"
+            }
+          },
+          {
+            "sequence_number": 16,
+            "field": {
+              "api_name": "Email"
+            }
+          },
+          {
+            "sequence_number": 16,
+            "field": {
+              "api_name": "Tag"
+            }
+          },
+          {
+            "sequence_number": 17,
+            "field": {
+              "api_name": "Phone"
+            }
+          },
+          {
+            "sequence_number": 18,
+            "field": {
+              "api_name": "Created_By"
+            }
+          },
+          {
+            "sequence_number": 19,
+            "field": {
+              "api_name": "Modified_By"
+            }
+          },
+          {
+            "sequence_number": 20,
+            "field": {
+              "api_name": "Created_Time"
+            }
+          },
+          {
+            "sequence_number": 21,
+            "field": {
+              "api_name": "Modified_Time"
+            }
+          },
+          {
+            "sequence_number": 27,
+            "field": {
+              "api_name": "Record_Status__s"
+            }
+          },
+          {
+            "sequence_number": 32,
+            "field": {
+              "api_name": "id"
+            }
+          },
+          {
+            "sequence_number": 34,
+            "field": {
+              "api_name": "Locked__s"
+            }
+          }
+        ],
+        "type": "used"
+      },
+      {
+        "display_label": "Description Information",
+        "sequence_number": 3,
+        "tab_traversal": 1,
+        "api_name": "Description Information",
+        "column_count": 1,
+        "name": "Description Information",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "Description"
+            }
+          },
+          {
+            "sequence_number": 2,
+            "field": {
+              "api_name": "Internal_Comments"
+            }
+          }
+        ],
+        "type": "used"
+      },
+      {
+        "display_label": "Solution Information",
+        "sequence_number": 4,
+        "tab_traversal": 1,
+        "api_name": "Solution Information",
+        "column_count": 1,
+        "name": "Solution Information",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "Solution"
+            }
+          },
+          {
+            "sequence_number": 2,
+            "field": {
+              "api_name": "Add_Comment"
+            }
+          }
+        ],
+        "type": "used"
+      },
+      {
+        "display_label": "Comment Information",
+        "sequence_number": 5,
+        "tab_traversal": 1,
+        "api_name": "Comment Information",
+        "column_count": 1,
+        "name": "Comments Information",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "Comments"
+            }
+          }
+        ],
+        "type": "used"
+      }
+    ]
+  },
+  "show_business_card": true,
+  "api_name": "Standard__s",
+  "name": "Standard",
+  "profile_properties": [
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "Administrator"
+      }
+    },
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "Standard"
+      }
+    },
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "ZDKProfile"
+      }
+    },
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "a"
+      }
+    }
+  ],
+  "source": "crm",
+  "fields": {
+    "_data": [
+      {
+        "field": {
+          "api_name": "Tag",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "id",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Locked__s",
+          "formula": null
+        },
+        "default_value": false,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Description",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Internal_Comments",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Solution",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Add_Comment",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Comments",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Deal_Name",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Case_Reason",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Case_Number",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Owner",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Status",
+          "formula": null
+        },
+        "default_value": null,
+        "required": true
+      },
+      {
+        "field": {
+          "api_name": "Product_Name",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Priority",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Type",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Case_Origin",
+          "formula": null
+        },
+        "default_value": null,
+        "required": true
+      },
+      {
+        "field": {
+          "api_name": "Subject",
+          "formula": null
+        },
+        "default_value": null,
+        "required": true
+      },
+      {
+        "field": {
+          "api_name": "Related_To",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Account_Name",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Record_Status__s",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "No_of_comments",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Reported_By",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Email",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Phone",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Created_By",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Modified_By",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Created_Time",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Modified_Time",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      }
+    ]
+  },
+  "status": "active"
+}

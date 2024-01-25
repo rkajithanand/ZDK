@@ -1,0 +1,91 @@
+{
+  "system_mandatory": true,
+  "associated_module": null,
+  "private": null,
+  "webhook": true,
+  "json_type": "string",
+  "crypt": null,
+  "field_label": "Status",
+  "tooltip": null,
+  "textarea": null,
+  "created_source": "default",
+  "type": "used",
+  "field_read_only": false,
+  "display_label": "Status",
+  "association_details": null,
+  "multi_module_lookup": null,
+  "currency": null,
+  "multiuserlookup": null,
+  "custom_field": false,
+  "filterable": true,
+  "lookup": null,
+  "length": 120,
+  "profile_permissions": [
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "Administrator"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "Standard"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "ZDKProfile"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "a"
+      }
+    }
+  ],
+  "pick_list_values_sorted_lexically": false,
+  "sortable": true,
+  "external": null,
+  "api_name": "Status",
+  "unique": null,
+  "data_type": "picklist",
+  "sub_module": null,
+  "formula": null,
+  "hipaa_compliance_enabled": null,
+  "decimal_place": null,
+  "multiselectlookup": null,
+  "pick_list_values": [
+    {
+      "display_value": "New",
+      "sequence_number": 1,
+      "actual_value": "New",
+      "type": "used"
+    },
+    {
+      "display_value": "Escalated",
+      "sequence_number": 2,
+      "actual_value": "Escalated",
+      "type": "used"
+    },
+    {
+      "display_value": "On Hold",
+      "sequence_number": 3,
+      "actual_value": "On Hold",
+      "type": "used"
+    },
+    {
+      "display_value": "Closed",
+      "sequence_number": 4,
+      "actual_value": "Closed",
+      "type": "used"
+    }
+  ],
+  "auto_number": null
+}

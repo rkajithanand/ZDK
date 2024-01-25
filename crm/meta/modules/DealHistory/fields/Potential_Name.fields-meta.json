@@ -1,0 +1,75 @@
+{
+  "system_mandatory": false,
+  "associated_module": null,
+  "private": null,
+  "webhook": true,
+  "json_type": "jsonobject",
+  "crypt": null,
+  "field_label": "Deal Name",
+  "tooltip": null,
+  "textarea": null,
+  "created_source": "default",
+  "type": "used",
+  "field_read_only": false,
+  "display_label": "Potential Name",
+  "association_details": null,
+  "multi_module_lookup": null,
+  "currency": null,
+  "multiuserlookup": null,
+  "custom_field": false,
+  "filterable": true,
+  "lookup": {
+    "display_label": "Stage History",
+    "api_name": "Stage_History",
+    "module": {
+      "api_name": "Deals"
+    },
+    "query_details": {
+      "criteria": null
+    }
+  },
+  "length": 120,
+  "profile_permissions": [
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "Administrator"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "Standard"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "ZDKProfile"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "a"
+      }
+    }
+  ],
+  "pick_list_values_sorted_lexically": false,
+  "sortable": true,
+  "external": null,
+  "api_name": "Potential_Name",
+  "unique": null,
+  "data_type": "lookup",
+  "sub_module": null,
+  "formula": null,
+  "hipaa_compliance_enabled": null,
+  "decimal_place": null,
+  "multiselectlookup": null,
+  "pick_list_values": null,
+  "auto_number": null
+}

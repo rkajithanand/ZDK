@@ -1,0 +1,12 @@
+{
+  "display_label": "Manager",
+  "forecast_manager": null,
+  "share_with_peers": false,
+  "api_name": "Manager",
+  "name": "Manager",
+  "description": "Users belonging to this role cannot see data for admin users.",
+  "reporting_to": {
+    "api_name": "CEO"
+  },
+  "admin_user": false
+}

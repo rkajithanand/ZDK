@@ -1,0 +1,803 @@
+{
+  "mode": {
+    "sections": [
+      {
+        "display_label": "Contact Image",
+        "sequence_number": 1,
+        "tab_traversal": 2,
+        "api_name": "Contact Image",
+        "column_count": 1,
+        "name": "Record Image",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "Record_Image"
+            }
+          }
+        ],
+        "type": "used"
+      },
+      {
+        "display_label": "Contact Information",
+        "sequence_number": 2,
+        "tab_traversal": 2,
+        "api_name": "Contact Information",
+        "column_count": 2,
+        "name": "Contact Information",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "Owner"
+            }
+          },
+          {
+            "sequence_number": 2,
+            "field": {
+              "api_name": "Lead_Source"
+            }
+          },
+          {
+            "sequence_number": 3,
+            "field": {
+              "api_name": "First_Name"
+            }
+          },
+          {
+            "sequence_number": 4,
+            "field": {
+              "api_name": "Last_Name"
+            }
+          },
+          {
+            "sequence_number": 4,
+            "field": {
+              "api_name": "Full_Name"
+            }
+          },
+          {
+            "sequence_number": 5,
+            "field": {
+              "api_name": "Account_Name"
+            }
+          },
+          {
+            "sequence_number": 6,
+            "field": {
+              "api_name": "Vendor_Name"
+            }
+          },
+          {
+            "sequence_number": 7,
+            "field": {
+              "api_name": "Email"
+            }
+          },
+          {
+            "sequence_number": 8,
+            "field": {
+              "api_name": "Title"
+            }
+          },
+          {
+            "sequence_number": 10,
+            "field": {
+              "api_name": "Department"
+            }
+          },
+          {
+            "sequence_number": 11,
+            "field": {
+              "api_name": "Phone"
+            }
+          },
+          {
+            "sequence_number": 12,
+            "field": {
+              "api_name": "Home_Phone"
+            }
+          },
+          {
+            "sequence_number": 13,
+            "field": {
+              "api_name": "Other_Phone"
+            }
+          },
+          {
+            "sequence_number": 14,
+            "field": {
+              "api_name": "Fax"
+            }
+          },
+          {
+            "sequence_number": 15,
+            "field": {
+              "api_name": "Mobile"
+            }
+          },
+          {
+            "sequence_number": 16,
+            "field": {
+              "api_name": "Date_of_Birth"
+            }
+          },
+          {
+            "sequence_number": 16,
+            "field": {
+              "api_name": "Tag"
+            }
+          },
+          {
+            "sequence_number": 17,
+            "field": {
+              "api_name": "Assistant"
+            }
+          },
+          {
+            "sequence_number": 18,
+            "field": {
+              "api_name": "Asst_Phone"
+            }
+          },
+          {
+            "sequence_number": 20,
+            "field": {
+              "api_name": "Email_Opt_Out"
+            }
+          },
+          {
+            "sequence_number": 21,
+            "field": {
+              "api_name": "Created_By"
+            }
+          },
+          {
+            "sequence_number": 22,
+            "field": {
+              "api_name": "Skype_ID"
+            }
+          },
+          {
+            "sequence_number": 23,
+            "field": {
+              "api_name": "Modified_By"
+            }
+          },
+          {
+            "sequence_number": 25,
+            "field": {
+              "api_name": "Created_Time"
+            }
+          },
+          {
+            "sequence_number": 26,
+            "field": {
+              "api_name": "Modified_Time"
+            }
+          },
+          {
+            "sequence_number": 27,
+            "field": {
+              "api_name": "Record_Status__s"
+            }
+          },
+          {
+            "sequence_number": 29,
+            "field": {
+              "api_name": "Salutation"
+            }
+          },
+          {
+            "sequence_number": 30,
+            "field": {
+              "api_name": "Secondary_Email"
+            }
+          },
+          {
+            "sequence_number": 33,
+            "field": {
+              "api_name": "Last_Activity_Time"
+            }
+          },
+          {
+            "sequence_number": 34,
+            "field": {
+              "api_name": "Reporting_To"
+            }
+          },
+          {
+            "sequence_number": 34,
+            "field": {
+              "api_name": "Twitter"
+            }
+          },
+          {
+            "sequence_number": 47,
+            "field": {
+              "api_name": "Unsubscribed_Mode"
+            }
+          },
+          {
+            "sequence_number": 48,
+            "field": {
+              "api_name": "Unsubscribed_Time"
+            }
+          },
+          {
+            "sequence_number": 48,
+            "field": {
+              "api_name": "id"
+            }
+          },
+          {
+            "sequence_number": 48,
+            "field": {
+              "api_name": "Change_Log_Time__s"
+            }
+          },
+          {
+            "sequence_number": 49,
+            "field": {
+              "api_name": "Last_Enriched_Time__s"
+            }
+          },
+          {
+            "sequence_number": 49,
+            "field": {
+              "api_name": "Enrich_Status__s"
+            }
+          },
+          {
+            "sequence_number": 51,
+            "field": {
+              "api_name": "Locked__s"
+            }
+          },
+          {
+            "sequence_number": 55,
+            "field": {
+              "api_name": "Contacts"
+            }
+          }
+        ],
+        "type": "used"
+      },
+      {
+        "display_label": "Address Information",
+        "sequence_number": 3,
+        "tab_traversal": 1,
+        "api_name": "Address Information",
+        "column_count": 2,
+        "name": "Address Information",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "Mailing_Street"
+            }
+          },
+          {
+            "sequence_number": 2,
+            "field": {
+              "api_name": "Other_Street"
+            }
+          },
+          {
+            "sequence_number": 3,
+            "field": {
+              "api_name": "Mailing_City"
+            }
+          },
+          {
+            "sequence_number": 4,
+            "field": {
+              "api_name": "Other_City"
+            }
+          },
+          {
+            "sequence_number": 5,
+            "field": {
+              "api_name": "Mailing_State"
+            }
+          },
+          {
+            "sequence_number": 6,
+            "field": {
+              "api_name": "Other_State"
+            }
+          },
+          {
+            "sequence_number": 7,
+            "field": {
+              "api_name": "Mailing_Zip"
+            }
+          },
+          {
+            "sequence_number": 8,
+            "field": {
+              "api_name": "Other_Zip"
+            }
+          },
+          {
+            "sequence_number": 9,
+            "field": {
+              "api_name": "Mailing_Country"
+            }
+          },
+          {
+            "sequence_number": 10,
+            "field": {
+              "api_name": "Other_Country"
+            }
+          }
+        ],
+        "type": "used"
+      },
+      {
+        "display_label": "Description Information",
+        "sequence_number": 4,
+        "tab_traversal": 2,
+        "api_name": "Description Information",
+        "column_count": 1,
+        "name": "Description Information",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "Description"
+            }
+          }
+        ],
+        "type": "used"
+      }
+    ]
+  },
+  "show_business_card": true,
+  "api_name": "Standard__s",
+  "name": "Standard",
+  "profile_properties": [
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "Administrator"
+      }
+    },
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "Standard"
+      }
+    },
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "ZDKProfile"
+      }
+    },
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "a"
+      }
+    }
+  ],
+  "source": "crm",
+  "fields": {
+    "_data": [
+      {
+        "field": {
+          "api_name": "Locked__s",
+          "formula": null
+        },
+        "default_value": false,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Other_Zip",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Mailing_Zip",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Other_State",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Mailing_State",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Other_City",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Mailing_City",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Other_Street",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Mailing_Street",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Record_Status__s",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Mailing_Country",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Change_Log_Time__s",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "id",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Contacts",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Enrich_Status__s",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Last_Enriched_Time__s",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Record_Image",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Description",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Other_Country",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Department",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Reporting_To",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Asst_Phone",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Assistant",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Date_of_Birth",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Mobile",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Fax",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Other_Phone",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Home_Phone",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Phone",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Email_Opt_Out",
+          "formula": null
+        },
+        "default_value": false,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Title",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Email",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Vendor_Name",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Account_Name",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Full_Name",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Last_Name",
+          "formula": null
+        },
+        "default_value": null,
+        "required": true
+      },
+      {
+        "field": {
+          "api_name": "First_Name",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Lead_Source",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Salutation",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Tag",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Twitter",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Last_Activity_Time",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Secondary_Email",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Owner",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Modified_Time",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Modified_By",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Created_Time",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Created_By",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Unsubscribed_Time",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Unsubscribed_Mode",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Skype_ID",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      }
+    ]
+  },
+  "status": "active"
+}

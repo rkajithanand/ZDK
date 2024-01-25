@@ -1,0 +1,35 @@
+{
+  "visibility": 2046,
+  "emailTemplate_support": false,
+  "profiles": [
+    {
+      "api_name": "Administrator"
+    },
+    {
+      "api_name": "Standard"
+    },
+    {
+      "api_name": "ZDKProfile"
+    },
+    {
+      "api_name": "a"
+    }
+  ],
+  "description": "contains monthly stats of data enrichment for an enabled module",
+  "filter_supported": true,
+  "display_field": null,
+  "show_as_tab": false,
+  "web_link": null,
+  "singular_label": "Data Enrichment Stats",
+  "sequence_number": 65,
+  "inventory_template_supported": false,
+  "api_supported": true,
+  "plural_label": "Data Enrichment Stats",
+  "api_name": "Data_Enrichment_Stats__s",
+  "triggers_supported": false,
+  "scoring_supported": false,
+  "webform_supported": false,
+  "module_name": "DataEnrichmentStats",
+  "parent_module": null,
+  "isBlueprintSupported": false
+}

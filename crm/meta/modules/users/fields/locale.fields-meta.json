@@ -1,0 +1,235 @@
+{
+  "system_mandatory": false,
+  "associated_module": null,
+  "private": null,
+  "webhook": false,
+  "json_type": "string",
+  "crypt": null,
+  "field_label": "Language",
+  "tooltip": null,
+  "textarea": null,
+  "created_source": "default",
+  "type": "used",
+  "field_read_only": false,
+  "display_label": "Language",
+  "association_details": null,
+  "multi_module_lookup": null,
+  "currency": null,
+  "multiuserlookup": null,
+  "custom_field": false,
+  "filterable": true,
+  "lookup": null,
+  "length": 120,
+  "profile_permissions": [
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "Administrator"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "Standard"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "ZDKProfile"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "a"
+      }
+    }
+  ],
+  "pick_list_values_sorted_lexically": false,
+  "sortable": true,
+  "external": null,
+  "api_name": "locale",
+  "unique": null,
+  "data_type": "picklist",
+  "sub_module": null,
+  "formula": null,
+  "hipaa_compliance_enabled": null,
+  "decimal_place": null,
+  "multiselectlookup": null,
+  "pick_list_values": [
+    {
+      "display_value": "English (United States)",
+      "sequence_number": 1,
+      "actual_value": "en_US",
+      "type": null
+    },
+    {
+      "display_value": "English (United Kingdom)",
+      "sequence_number": 2,
+      "actual_value": "en_GB",
+      "type": null
+    },
+    {
+      "display_value": "български",
+      "sequence_number": 3,
+      "actual_value": "bg_BG",
+      "type": null
+    },
+    {
+      "display_value": "Chinese (Simplified)",
+      "sequence_number": 4,
+      "actual_value": "zh_CN",
+      "type": null
+    },
+    {
+      "display_value": "Chinese (Traditional)",
+      "sequence_number": 5,
+      "actual_value": "zh_TW",
+      "type": null
+    },
+    {
+      "display_value": "hrvatski",
+      "sequence_number": 6,
+      "actual_value": "hr_HR",
+      "type": null
+    },
+    {
+      "display_value": "العربية",
+      "sequence_number": 7,
+      "actual_value": "ar_EG",
+      "type": null
+    },
+    {
+      "display_value": "Bahasa Indonesia",
+      "sequence_number": 8,
+      "actual_value": "in_ID",
+      "type": null
+    },
+    {
+      "display_value": "čeština",
+      "sequence_number": 9,
+      "actual_value": "cs_CZ",
+      "type": null
+    },
+    {
+      "display_value": "Dansk",
+      "sequence_number": 10,
+      "actual_value": "da_DK",
+      "type": null
+    },
+    {
+      "display_value": "Nederlands",
+      "sequence_number": 11,
+      "actual_value": "nl_NL",
+      "type": null
+    },
+    {
+      "display_value": "français",
+      "sequence_number": 12,
+      "actual_value": "fr_FR",
+      "type": null
+    },
+    {
+      "display_value": "Deutsch",
+      "sequence_number": 13,
+      "actual_value": "de_DE",
+      "type": null
+    },
+    {
+      "display_value": "magyar",
+      "sequence_number": 14,
+      "actual_value": "hu_HU",
+      "type": null
+    },
+    {
+      "display_value": "हिंदी",
+      "sequence_number": 15,
+      "actual_value": "hi_IN",
+      "type": null
+    },
+    {
+      "display_value": "italiano",
+      "sequence_number": 16,
+      "actual_value": "it_IT",
+      "type": null
+    },
+    {
+      "display_value": "日本語",
+      "sequence_number": 17,
+      "actual_value": "ja_JP",
+      "type": null
+    },
+    {
+      "display_value": "polski",
+      "sequence_number": 18,
+      "actual_value": "pl_PL",
+      "type": null
+    },
+    {
+      "display_value": "Portuguese (Brazil)",
+      "sequence_number": 19,
+      "actual_value": "pt_BR",
+      "type": null
+    },
+    {
+      "display_value": "Portuguese (Portugal)",
+      "sequence_number": 20,
+      "actual_value": "pt_PT",
+      "type": null
+    },
+    {
+      "display_value": "русский",
+      "sequence_number": 21,
+      "actual_value": "ru_RU",
+      "type": null
+    },
+    {
+      "display_value": "español",
+      "sequence_number": 22,
+      "actual_value": "es_ES",
+      "type": null
+    },
+    {
+      "display_value": "svenska",
+      "sequence_number": 23,
+      "actual_value": "sv_SE",
+      "type": null
+    },
+    {
+      "display_value": "ไทย",
+      "sequence_number": 24,
+      "actual_value": "th_TH",
+      "type": null
+    },
+    {
+      "display_value": "Türkçe",
+      "sequence_number": 25,
+      "actual_value": "tr_TR",
+      "type": null
+    },
+    {
+      "display_value": "Tiếng Việt",
+      "sequence_number": 26,
+      "actual_value": "vi_VN",
+      "type": null
+    },
+    {
+      "display_value": "한국어",
+      "sequence_number": 27,
+      "actual_value": "ko_KR",
+      "type": null
+    },
+    {
+      "display_value": "עברית",
+      "sequence_number": 28,
+      "actual_value": "iw_IL",
+      "type": null
+    }
+  ],
+  "auto_number": null
+}

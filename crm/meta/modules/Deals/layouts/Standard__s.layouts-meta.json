@@ -1,0 +1,248 @@
+{
+  "mode": {
+    "sections": [
+      {
+        "display_label": "Deal Image",
+        "sequence_number": 1,
+        "tab_traversal": 2,
+        "api_name": "Deal Image",
+        "column_count": 1,
+        "name": "Record Image",
+        "section_fields": null,
+        "type": "used"
+      },
+      {
+        "display_label": "Deal Information",
+        "sequence_number": 2,
+        "tab_traversal": 2,
+        "api_name": "Deal Information",
+        "column_count": 2,
+        "name": "Potential Information",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "Owner"
+            }
+          },
+          {
+            "sequence_number": 2,
+            "field": {
+              "api_name": "Amount"
+            }
+          },
+          {
+            "sequence_number": 3,
+            "field": {
+              "api_name": "Deal_Name"
+            }
+          },
+          {
+            "sequence_number": 4,
+            "field": {
+              "api_name": "Closing_Date"
+            }
+          },
+          {
+            "sequence_number": 4,
+            "field": {
+              "api_name": "Pipeline"
+            }
+          },
+          {
+            "sequence_number": 5,
+            "field": {
+              "api_name": "Account_Name"
+            }
+          },
+          {
+            "sequence_number": 6,
+            "field": {
+              "api_name": "Stage"
+            }
+          },
+          {
+            "sequence_number": 7,
+            "field": {
+              "api_name": "Type"
+            }
+          },
+          {
+            "sequence_number": 8,
+            "field": {
+              "api_name": "Reason_For_Loss__s"
+            }
+          },
+          {
+            "sequence_number": 9,
+            "field": {
+              "api_name": "Next_Step"
+            }
+          },
+          {
+            "sequence_number": 10,
+            "field": {
+              "api_name": "Probability"
+            }
+          },
+          {
+            "sequence_number": 11,
+            "field": {
+              "api_name": "Lead_Source"
+            }
+          },
+          {
+            "sequence_number": 12,
+            "field": {
+              "api_name": "Expected_Revenue"
+            }
+          },
+          {
+            "sequence_number": 13,
+            "field": {
+              "api_name": "Contact_Name"
+            }
+          },
+          {
+            "sequence_number": 14,
+            "field": {
+              "api_name": "Campaign_Source"
+            }
+          },
+          {
+            "sequence_number": 15,
+            "field": {
+              "api_name": "Modified_By"
+            }
+          },
+          {
+            "sequence_number": 16,
+            "field": {
+              "api_name": "Created_By"
+            }
+          },
+          {
+            "sequence_number": 17,
+            "field": {
+              "api_name": "Modified_Time"
+            }
+          },
+          {
+            "sequence_number": 18,
+            "field": {
+              "api_name": "Created_Time"
+            }
+          },
+          {
+            "sequence_number": 18,
+            "field": {
+              "api_name": "Tag"
+            }
+          },
+          {
+            "sequence_number": 21,
+            "field": {
+              "api_name": "Last_Activity_Time"
+            }
+          },
+          {
+            "sequence_number": 23,
+            "field": {
+              "api_name": "Sales_Cycle_Duration"
+            }
+          },
+          {
+            "sequence_number": 24,
+            "field": {
+              "api_name": "Lead_Conversion_Time"
+            }
+          },
+          {
+            "sequence_number": 26,
+            "field": {
+              "api_name": "Overall_Sales_Duration"
+            }
+          },
+          {
+            "sequence_number": 27,
+            "field": {
+              "api_name": "Record_Status__s"
+            }
+          },
+          {
+            "sequence_number": 32,
+            "field": {
+              "api_name": "Change_Log_Time__s"
+            }
+          },
+          {
+            "sequence_number": 32,
+            "field": {
+              "api_name": "id"
+            }
+          },
+          {
+            "sequence_number": 34,
+            "field": {
+              "api_name": "Locked__s"
+            }
+          }
+        ],
+        "type": "used"
+      },
+      {
+        "display_label": "Description Information",
+        "sequence_number": 3,
+        "tab_traversal": 1,
+        "api_name": "Description Information",
+        "column_count": 1,
+        "name": "Description Information",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "Description"
+            }
+          }
+        ],
+        "type": "used"
+      }
+    ]
+  },
+  "show_business_card": true,
+  "api_name": "Standard__s",
+  "name": "Standard",
+  "profile_properties": [
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "Administrator"
+      }
+    },
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "Standard"
+      }
+    },
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "ZDKProfile"
+      }
+    },
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "a"
+      }
+    }
+  ],
+  "source": "crm",
+  "fields": null,
+  "status": "active"
+}

@@ -1,0 +1,3853 @@
+{
+  "system_mandatory": false,
+  "associated_module": null,
+  "private": null,
+  "webhook": false,
+  "json_type": "string",
+  "crypt": null,
+  "field_label": "Time Zone",
+  "tooltip": null,
+  "textarea": null,
+  "created_source": "default",
+  "type": "used",
+  "field_read_only": false,
+  "display_label": "Time Zone",
+  "association_details": null,
+  "multi_module_lookup": null,
+  "currency": null,
+  "multiuserlookup": null,
+  "custom_field": false,
+  "filterable": true,
+  "lookup": null,
+  "length": 120,
+  "profile_permissions": [
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "Administrator"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "Standard"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "ZDKProfile"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "a"
+      }
+    }
+  ],
+  "pick_list_values_sorted_lexically": false,
+  "sortable": true,
+  "external": null,
+  "api_name": "time_zone",
+  "unique": null,
+  "data_type": "picklist",
+  "sub_module": null,
+  "formula": null,
+  "hipaa_compliance_enabled": null,
+  "decimal_place": null,
+  "multiselectlookup": null,
+  "pick_list_values": [
+    {
+      "display_value": "(GMT -12:0) GMT-12:00 (Etc/GMT+12)",
+      "sequence_number": 1,
+      "actual_value": "Etc/GMT+12",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -11:0) GMT-11:00 (Etc/GMT+11)",
+      "sequence_number": 2,
+      "actual_value": "Etc/GMT+11",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -11:0) Samoa Standard Time (Pacific/Midway)",
+      "sequence_number": 3,
+      "actual_value": "Pacific/Midway",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -11:0) Niue Time (Pacific/Niue)",
+      "sequence_number": 4,
+      "actual_value": "Pacific/Niue",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -11:0) Samoa Standard Time (Pacific/Pago_Pago)",
+      "sequence_number": 5,
+      "actual_value": "Pacific/Pago_Pago",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -11:0) Samoa Standard Time (Pacific/Samoa)",
+      "sequence_number": 6,
+      "actual_value": "Pacific/Samoa",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -11:0) Samoa Standard Time (US/Samoa)",
+      "sequence_number": 7,
+      "actual_value": "US/Samoa",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -10:0) Hawaii Standard Time (America/Adak)",
+      "sequence_number": 8,
+      "actual_value": "America/Adak",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -10:0) Hawaii Standard Time (America/Atka)",
+      "sequence_number": 9,
+      "actual_value": "America/Atka",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -10:0) GMT-10:00 (Etc/GMT+10)",
+      "sequence_number": 10,
+      "actual_value": "Etc/GMT+10",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -10:0) Hawaii Standard Time (HST)",
+      "sequence_number": 11,
+      "actual_value": "HST",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -10:0) Hawaii Standard Time (Pacific/Honolulu)",
+      "sequence_number": 12,
+      "actual_value": "Pacific/Honolulu",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -10:0) Hawaii Standard Time (Pacific/Johnston)",
+      "sequence_number": 13,
+      "actual_value": "Pacific/Johnston",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -10:0) Cook Is. Time (Pacific/Rarotonga)",
+      "sequence_number": 14,
+      "actual_value": "Pacific/Rarotonga",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -10:0) Tahiti Time (Pacific/Tahiti)",
+      "sequence_number": 15,
+      "actual_value": "Pacific/Tahiti",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -10:0) Hawaii Standard Time (SystemV/HST10)",
+      "sequence_number": 16,
+      "actual_value": "SystemV/HST10",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -10:0) Hawaii Standard Time (US/Aleutian)",
+      "sequence_number": 17,
+      "actual_value": "US/Aleutian",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -10:0) Hawaii Standard Time (US/Hawaii)",
+      "sequence_number": 18,
+      "actual_value": "US/Hawaii",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -9:30) Marquesas Time (Pacific/Marquesas)",
+      "sequence_number": 19,
+      "actual_value": "Pacific/Marquesas",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -9:0) Alaska Standard Time (AST)",
+      "sequence_number": 20,
+      "actual_value": "AST",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -9:0) Alaska Standard Time (America/Anchorage)",
+      "sequence_number": 21,
+      "actual_value": "America/Anchorage",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -9:0) Alaska Standard Time (America/Juneau)",
+      "sequence_number": 22,
+      "actual_value": "America/Juneau",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -9:0) Alaska Standard Time (America/Metlakatla)",
+      "sequence_number": 23,
+      "actual_value": "America/Metlakatla",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -9:0) Alaska Standard Time (America/Nome)",
+      "sequence_number": 24,
+      "actual_value": "America/Nome",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -9:0) Alaska Standard Time (America/Sitka)",
+      "sequence_number": 25,
+      "actual_value": "America/Sitka",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -9:0) Alaska Standard Time (America/Yakutat)",
+      "sequence_number": 26,
+      "actual_value": "America/Yakutat",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -9:0) GMT-09:00 (Etc/GMT+9)",
+      "sequence_number": 27,
+      "actual_value": "Etc/GMT+9",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -9:0) Gambier Time (Pacific/Gambier)",
+      "sequence_number": 28,
+      "actual_value": "Pacific/Gambier",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -9:0) Alaska Standard Time (SystemV/YST9)",
+      "sequence_number": 29,
+      "actual_value": "SystemV/YST9",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -9:0) Alaska Standard Time (SystemV/YST9YDT)",
+      "sequence_number": 30,
+      "actual_value": "SystemV/YST9YDT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -9:0) Alaska Standard Time (US/Alaska)",
+      "sequence_number": 31,
+      "actual_value": "US/Alaska",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -8:0) Pacific Standard Time (America/Ensenada)",
+      "sequence_number": 32,
+      "actual_value": "America/Ensenada",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -8:0) Pacific Standard Time (America/Los_Angeles)",
+      "sequence_number": 33,
+      "actual_value": "America/Los_Angeles",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -8:0) Pacific Standard Time (America/Santa_Isabel)",
+      "sequence_number": 34,
+      "actual_value": "America/Santa_Isabel",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -8:0) Pacific Standard Time (America/Tijuana)",
+      "sequence_number": 35,
+      "actual_value": "America/Tijuana",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -8:0) Pacific Standard Time (America/Vancouver)",
+      "sequence_number": 36,
+      "actual_value": "America/Vancouver",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -8:0) Pacific Standard Time (Canada/Pacific)",
+      "sequence_number": 37,
+      "actual_value": "Canada/Pacific",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -8:0) GMT-08:00 (Etc/GMT+8)",
+      "sequence_number": 38,
+      "actual_value": "Etc/GMT+8",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -8:0) Pacific Standard Time (Mexico/BajaNorte)",
+      "sequence_number": 39,
+      "actual_value": "Mexico/BajaNorte",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -8:0) Pacific Standard Time (PST)",
+      "sequence_number": 40,
+      "actual_value": "PST",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -8:0) Pacific Standard Time (PST8PDT)",
+      "sequence_number": 41,
+      "actual_value": "PST8PDT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -8:0) Pitcairn Standard Time (Pacific/Pitcairn)",
+      "sequence_number": 42,
+      "actual_value": "Pacific/Pitcairn",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -8:0) Pacific Standard Time (SystemV/PST8)",
+      "sequence_number": 43,
+      "actual_value": "SystemV/PST8",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -8:0) Pacific Standard Time (SystemV/PST8PDT)",
+      "sequence_number": 44,
+      "actual_value": "SystemV/PST8PDT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -8:0) Pacific Standard Time (US/Pacific)",
+      "sequence_number": 45,
+      "actual_value": "US/Pacific",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (America/Boise)",
+      "sequence_number": 46,
+      "actual_value": "America/Boise",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (America/Cambridge_Bay)",
+      "sequence_number": 47,
+      "actual_value": "America/Cambridge_Bay",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (America/Ciudad_Juarez)",
+      "sequence_number": 48,
+      "actual_value": "America/Ciudad_Juarez",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (America/Creston)",
+      "sequence_number": 49,
+      "actual_value": "America/Creston",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (America/Dawson)",
+      "sequence_number": 50,
+      "actual_value": "America/Dawson",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (America/Dawson_Creek)",
+      "sequence_number": 51,
+      "actual_value": "America/Dawson_Creek",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (America/Denver)",
+      "sequence_number": 52,
+      "actual_value": "America/Denver",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (America/Edmonton)",
+      "sequence_number": 53,
+      "actual_value": "America/Edmonton",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (America/Fort_Nelson)",
+      "sequence_number": 54,
+      "actual_value": "America/Fort_Nelson",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (America/Hermosillo)",
+      "sequence_number": 55,
+      "actual_value": "America/Hermosillo",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (America/Inuvik)",
+      "sequence_number": 56,
+      "actual_value": "America/Inuvik",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (America/Mazatlan)",
+      "sequence_number": 57,
+      "actual_value": "America/Mazatlan",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (America/Phoenix)",
+      "sequence_number": 58,
+      "actual_value": "America/Phoenix",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (America/Shiprock)",
+      "sequence_number": 59,
+      "actual_value": "America/Shiprock",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (America/Whitehorse)",
+      "sequence_number": 60,
+      "actual_value": "America/Whitehorse",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (America/Yellowknife)",
+      "sequence_number": 61,
+      "actual_value": "America/Yellowknife",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (Canada/Mountain)",
+      "sequence_number": 62,
+      "actual_value": "Canada/Mountain",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (Canada/Yukon)",
+      "sequence_number": 63,
+      "actual_value": "Canada/Yukon",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) GMT-07:00 (Etc/GMT+7)",
+      "sequence_number": 64,
+      "actual_value": "Etc/GMT+7",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (MST)",
+      "sequence_number": 65,
+      "actual_value": "MST",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (MST7MDT)",
+      "sequence_number": 66,
+      "actual_value": "MST7MDT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (Mexico/BajaSur)",
+      "sequence_number": 67,
+      "actual_value": "Mexico/BajaSur",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (Navajo)",
+      "sequence_number": 68,
+      "actual_value": "Navajo",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (PNT)",
+      "sequence_number": 69,
+      "actual_value": "PNT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (SystemV/MST7)",
+      "sequence_number": 70,
+      "actual_value": "SystemV/MST7",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (SystemV/MST7MDT)",
+      "sequence_number": 71,
+      "actual_value": "SystemV/MST7MDT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (US/Arizona)",
+      "sequence_number": 72,
+      "actual_value": "US/Arizona",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -7:0) Mountain Standard Time (US/Mountain)",
+      "sequence_number": 73,
+      "actual_value": "US/Mountain",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Bahia_Banderas)",
+      "sequence_number": 74,
+      "actual_value": "America/Bahia_Banderas",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Belize)",
+      "sequence_number": 75,
+      "actual_value": "America/Belize",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Chicago)",
+      "sequence_number": 76,
+      "actual_value": "America/Chicago",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Chihuahua)",
+      "sequence_number": 77,
+      "actual_value": "America/Chihuahua",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Costa_Rica)",
+      "sequence_number": 78,
+      "actual_value": "America/Costa_Rica",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/El_Salvador)",
+      "sequence_number": 79,
+      "actual_value": "America/El_Salvador",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Guatemala)",
+      "sequence_number": 80,
+      "actual_value": "America/Guatemala",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Indiana/Knox)",
+      "sequence_number": 81,
+      "actual_value": "America/Indiana/Knox",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Indiana/Tell_City)",
+      "sequence_number": 82,
+      "actual_value": "America/Indiana/Tell_City",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Knox_IN)",
+      "sequence_number": 83,
+      "actual_value": "America/Knox_IN",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Managua)",
+      "sequence_number": 84,
+      "actual_value": "America/Managua",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Matamoros)",
+      "sequence_number": 85,
+      "actual_value": "America/Matamoros",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Menominee)",
+      "sequence_number": 86,
+      "actual_value": "America/Menominee",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Merida)",
+      "sequence_number": 87,
+      "actual_value": "America/Merida",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Mexico_City)",
+      "sequence_number": 88,
+      "actual_value": "America/Mexico_City",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Monterrey)",
+      "sequence_number": 89,
+      "actual_value": "America/Monterrey",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/North_Dakota/Beulah)",
+      "sequence_number": 90,
+      "actual_value": "America/North_Dakota/Beulah",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/North_Dakota/Center)",
+      "sequence_number": 91,
+      "actual_value": "America/North_Dakota/Center",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/North_Dakota/New_Salem)",
+      "sequence_number": 92,
+      "actual_value": "America/North_Dakota/New_Salem",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Ojinaga)",
+      "sequence_number": 93,
+      "actual_value": "America/Ojinaga",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Rainy_River)",
+      "sequence_number": 94,
+      "actual_value": "America/Rainy_River",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Rankin_Inlet)",
+      "sequence_number": 95,
+      "actual_value": "America/Rankin_Inlet",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Regina)",
+      "sequence_number": 96,
+      "actual_value": "America/Regina",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Resolute)",
+      "sequence_number": 97,
+      "actual_value": "America/Resolute",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Swift_Current)",
+      "sequence_number": 98,
+      "actual_value": "America/Swift_Current",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Tegucigalpa)",
+      "sequence_number": 99,
+      "actual_value": "America/Tegucigalpa",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (America/Winnipeg)",
+      "sequence_number": 100,
+      "actual_value": "America/Winnipeg",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (CST)",
+      "sequence_number": 101,
+      "actual_value": "CST",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (CST6CDT)",
+      "sequence_number": 102,
+      "actual_value": "CST6CDT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (Canada/Central)",
+      "sequence_number": 103,
+      "actual_value": "Canada/Central",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (Canada/Saskatchewan)",
+      "sequence_number": 104,
+      "actual_value": "Canada/Saskatchewan",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Easter Is. Summer Time (Chile/EasterIsland)",
+      "sequence_number": 105,
+      "actual_value": "Chile/EasterIsland",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) GMT-06:00 (Etc/GMT+6)",
+      "sequence_number": 106,
+      "actual_value": "Etc/GMT+6",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (Mexico/General)",
+      "sequence_number": 107,
+      "actual_value": "Mexico/General",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Easter Is. Summer Time (Pacific/Easter)",
+      "sequence_number": 108,
+      "actual_value": "Pacific/Easter",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Galapagos Time (Pacific/Galapagos)",
+      "sequence_number": 109,
+      "actual_value": "Pacific/Galapagos",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (SystemV/CST6)",
+      "sequence_number": 110,
+      "actual_value": "SystemV/CST6",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (SystemV/CST6CDT)",
+      "sequence_number": 111,
+      "actual_value": "SystemV/CST6CDT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (US/Central)",
+      "sequence_number": 112,
+      "actual_value": "US/Central",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -6:0) Central Standard Time (US/Indiana-Starke)",
+      "sequence_number": 113,
+      "actual_value": "US/Indiana-Starke",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Atikokan)",
+      "sequence_number": 114,
+      "actual_value": "America/Atikokan",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Colombia Time (America/Bogota)",
+      "sequence_number": 115,
+      "actual_value": "America/Bogota",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Cancun)",
+      "sequence_number": 116,
+      "actual_value": "America/Cancun",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Cayman)",
+      "sequence_number": 117,
+      "actual_value": "America/Cayman",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Coral_Harbour)",
+      "sequence_number": 118,
+      "actual_value": "America/Coral_Harbour",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Detroit)",
+      "sequence_number": 119,
+      "actual_value": "America/Detroit",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Acre Time (America/Eirunepe)",
+      "sequence_number": 120,
+      "actual_value": "America/Eirunepe",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Fort_Wayne)",
+      "sequence_number": 121,
+      "actual_value": "America/Fort_Wayne",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Grand_Turk)",
+      "sequence_number": 122,
+      "actual_value": "America/Grand_Turk",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Ecuador Time (America/Guayaquil)",
+      "sequence_number": 123,
+      "actual_value": "America/Guayaquil",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Cuba Standard Time (America/Havana)",
+      "sequence_number": 124,
+      "actual_value": "America/Havana",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Indiana/Indianapolis)",
+      "sequence_number": 125,
+      "actual_value": "America/Indiana/Indianapolis",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Indiana/Marengo)",
+      "sequence_number": 126,
+      "actual_value": "America/Indiana/Marengo",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Indiana/Petersburg)",
+      "sequence_number": 127,
+      "actual_value": "America/Indiana/Petersburg",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Indiana/Vevay)",
+      "sequence_number": 128,
+      "actual_value": "America/Indiana/Vevay",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Indiana/Vincennes)",
+      "sequence_number": 129,
+      "actual_value": "America/Indiana/Vincennes",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Indiana/Winamac)",
+      "sequence_number": 130,
+      "actual_value": "America/Indiana/Winamac",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Indianapolis)",
+      "sequence_number": 131,
+      "actual_value": "America/Indianapolis",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Iqaluit)",
+      "sequence_number": 132,
+      "actual_value": "America/Iqaluit",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Jamaica)",
+      "sequence_number": 133,
+      "actual_value": "America/Jamaica",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Kentucky/Louisville)",
+      "sequence_number": 134,
+      "actual_value": "America/Kentucky/Louisville",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Kentucky/Monticello)",
+      "sequence_number": 135,
+      "actual_value": "America/Kentucky/Monticello",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Peru Time (America/Lima)",
+      "sequence_number": 136,
+      "actual_value": "America/Lima",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Louisville)",
+      "sequence_number": 137,
+      "actual_value": "America/Louisville",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Montreal)",
+      "sequence_number": 138,
+      "actual_value": "America/Montreal",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Nassau)",
+      "sequence_number": 139,
+      "actual_value": "America/Nassau",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/New_York)",
+      "sequence_number": 140,
+      "actual_value": "America/New_York",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Nipigon)",
+      "sequence_number": 141,
+      "actual_value": "America/Nipigon",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Panama)",
+      "sequence_number": 142,
+      "actual_value": "America/Panama",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Pangnirtung)",
+      "sequence_number": 143,
+      "actual_value": "America/Pangnirtung",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Port-au-Prince)",
+      "sequence_number": 144,
+      "actual_value": "America/Port-au-Prince",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Acre Time (America/Porto_Acre)",
+      "sequence_number": 145,
+      "actual_value": "America/Porto_Acre",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Acre Time (America/Rio_Branco)",
+      "sequence_number": 146,
+      "actual_value": "America/Rio_Branco",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Thunder_Bay)",
+      "sequence_number": 147,
+      "actual_value": "America/Thunder_Bay",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (America/Toronto)",
+      "sequence_number": 148,
+      "actual_value": "America/Toronto",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Acre Time (Brazil/Acre)",
+      "sequence_number": 149,
+      "actual_value": "Brazil/Acre",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (Canada/Eastern)",
+      "sequence_number": 150,
+      "actual_value": "Canada/Eastern",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Cuba Standard Time (Cuba)",
+      "sequence_number": 151,
+      "actual_value": "Cuba",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (EST)",
+      "sequence_number": 152,
+      "actual_value": "EST",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (EST5EDT)",
+      "sequence_number": 153,
+      "actual_value": "EST5EDT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) GMT-05:00 (Etc/GMT+5)",
+      "sequence_number": 154,
+      "actual_value": "Etc/GMT+5",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (IET)",
+      "sequence_number": 155,
+      "actual_value": "IET",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (Jamaica)",
+      "sequence_number": 156,
+      "actual_value": "Jamaica",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (SystemV/EST5)",
+      "sequence_number": 157,
+      "actual_value": "SystemV/EST5",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (SystemV/EST5EDT)",
+      "sequence_number": 158,
+      "actual_value": "SystemV/EST5EDT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (US/East-Indiana)",
+      "sequence_number": 159,
+      "actual_value": "US/East-Indiana",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (US/Eastern)",
+      "sequence_number": 160,
+      "actual_value": "US/Eastern",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -5:0) Eastern Standard Time (US/Michigan)",
+      "sequence_number": 161,
+      "actual_value": "US/Michigan",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Anguilla)",
+      "sequence_number": 162,
+      "actual_value": "America/Anguilla",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Antigua)",
+      "sequence_number": 163,
+      "actual_value": "America/Antigua",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Aruba)",
+      "sequence_number": 164,
+      "actual_value": "America/Aruba",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Paraguay Summer Time (America/Asuncion)",
+      "sequence_number": 165,
+      "actual_value": "America/Asuncion",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Barbados)",
+      "sequence_number": 166,
+      "actual_value": "America/Barbados",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Blanc-Sablon)",
+      "sequence_number": 167,
+      "actual_value": "America/Blanc-Sablon",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Amazon Time (America/Boa_Vista)",
+      "sequence_number": 168,
+      "actual_value": "America/Boa_Vista",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Amazon Time (America/Campo_Grande)",
+      "sequence_number": 169,
+      "actual_value": "America/Campo_Grande",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Venezuela Time (America/Caracas)",
+      "sequence_number": 170,
+      "actual_value": "America/Caracas",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Amazon Time (America/Cuiaba)",
+      "sequence_number": 171,
+      "actual_value": "America/Cuiaba",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Curacao)",
+      "sequence_number": 172,
+      "actual_value": "America/Curacao",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Dominica)",
+      "sequence_number": 173,
+      "actual_value": "America/Dominica",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Glace_Bay)",
+      "sequence_number": 174,
+      "actual_value": "America/Glace_Bay",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Goose_Bay)",
+      "sequence_number": 175,
+      "actual_value": "America/Goose_Bay",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Grenada)",
+      "sequence_number": 176,
+      "actual_value": "America/Grenada",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Guadeloupe)",
+      "sequence_number": 177,
+      "actual_value": "America/Guadeloupe",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Guyana Time (America/Guyana)",
+      "sequence_number": 178,
+      "actual_value": "America/Guyana",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Halifax)",
+      "sequence_number": 179,
+      "actual_value": "America/Halifax",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Kralendijk)",
+      "sequence_number": 180,
+      "actual_value": "America/Kralendijk",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Bolivia Time (America/La_Paz)",
+      "sequence_number": 181,
+      "actual_value": "America/La_Paz",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Lower_Princes)",
+      "sequence_number": 182,
+      "actual_value": "America/Lower_Princes",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Amazon Time (America/Manaus)",
+      "sequence_number": 183,
+      "actual_value": "America/Manaus",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Marigot)",
+      "sequence_number": 184,
+      "actual_value": "America/Marigot",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Martinique)",
+      "sequence_number": 185,
+      "actual_value": "America/Martinique",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Moncton)",
+      "sequence_number": 186,
+      "actual_value": "America/Moncton",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Montserrat)",
+      "sequence_number": 187,
+      "actual_value": "America/Montserrat",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Port_of_Spain)",
+      "sequence_number": 188,
+      "actual_value": "America/Port_of_Spain",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Amazon Time (America/Porto_Velho)",
+      "sequence_number": 189,
+      "actual_value": "America/Porto_Velho",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Puerto_Rico)",
+      "sequence_number": 190,
+      "actual_value": "America/Puerto_Rico",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Chile Summer Time (America/Santiago)",
+      "sequence_number": 191,
+      "actual_value": "America/Santiago",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Santo_Domingo)",
+      "sequence_number": 192,
+      "actual_value": "America/Santo_Domingo",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/St_Barthelemy)",
+      "sequence_number": 193,
+      "actual_value": "America/St_Barthelemy",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/St_Kitts)",
+      "sequence_number": 194,
+      "actual_value": "America/St_Kitts",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/St_Lucia)",
+      "sequence_number": 195,
+      "actual_value": "America/St_Lucia",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/St_Thomas)",
+      "sequence_number": 196,
+      "actual_value": "America/St_Thomas",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/St_Vincent)",
+      "sequence_number": 197,
+      "actual_value": "America/St_Vincent",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Thule)",
+      "sequence_number": 198,
+      "actual_value": "America/Thule",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Tortola)",
+      "sequence_number": 199,
+      "actual_value": "America/Tortola",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (America/Virgin)",
+      "sequence_number": 200,
+      "actual_value": "America/Virgin",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (Atlantic/Bermuda)",
+      "sequence_number": 201,
+      "actual_value": "Atlantic/Bermuda",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Amazon Time (Brazil/West)",
+      "sequence_number": 202,
+      "actual_value": "Brazil/West",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (Canada/Atlantic)",
+      "sequence_number": 203,
+      "actual_value": "Canada/Atlantic",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Chile Summer Time (Chile/Continental)",
+      "sequence_number": 204,
+      "actual_value": "Chile/Continental",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) GMT-04:00 (Etc/GMT+4)",
+      "sequence_number": 205,
+      "actual_value": "Etc/GMT+4",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (PRT)",
+      "sequence_number": 206,
+      "actual_value": "PRT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (SystemV/AST4)",
+      "sequence_number": 207,
+      "actual_value": "SystemV/AST4",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -4:0) Atlantic Standard Time (SystemV/AST4ADT)",
+      "sequence_number": 208,
+      "actual_value": "SystemV/AST4ADT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:30) Newfoundland Standard Time (America/St_Johns)",
+      "sequence_number": 209,
+      "actual_value": "America/St_Johns",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:30) Newfoundland Standard Time (CNT)",
+      "sequence_number": 210,
+      "actual_value": "CNT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:30) Newfoundland Standard Time (Canada/Newfoundland)",
+      "sequence_number": 211,
+      "actual_value": "Canada/Newfoundland",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (AGT)",
+      "sequence_number": 212,
+      "actual_value": "AGT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Brasilia Time (America/Araguaina)",
+      "sequence_number": 213,
+      "actual_value": "America/Araguaina",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Argentina/Buenos_Aires)",
+      "sequence_number": 214,
+      "actual_value": "America/Argentina/Buenos_Aires",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Argentina/Catamarca)",
+      "sequence_number": 215,
+      "actual_value": "America/Argentina/Catamarca",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Argentina/ComodRivadavia)",
+      "sequence_number": 216,
+      "actual_value": "America/Argentina/ComodRivadavia",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Argentina/Cordoba)",
+      "sequence_number": 217,
+      "actual_value": "America/Argentina/Cordoba",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Argentina/Jujuy)",
+      "sequence_number": 218,
+      "actual_value": "America/Argentina/Jujuy",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Argentina/La_Rioja)",
+      "sequence_number": 219,
+      "actual_value": "America/Argentina/La_Rioja",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Argentina/Mendoza)",
+      "sequence_number": 220,
+      "actual_value": "America/Argentina/Mendoza",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Argentina/Rio_Gallegos)",
+      "sequence_number": 221,
+      "actual_value": "America/Argentina/Rio_Gallegos",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Argentina/Salta)",
+      "sequence_number": 222,
+      "actual_value": "America/Argentina/Salta",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Argentina/San_Juan)",
+      "sequence_number": 223,
+      "actual_value": "America/Argentina/San_Juan",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Argentina/San_Luis)",
+      "sequence_number": 224,
+      "actual_value": "America/Argentina/San_Luis",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Argentina/Tucuman)",
+      "sequence_number": 225,
+      "actual_value": "America/Argentina/Tucuman",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Argentina/Ushuaia)",
+      "sequence_number": 226,
+      "actual_value": "America/Argentina/Ushuaia",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Brasilia Time (America/Bahia)",
+      "sequence_number": 227,
+      "actual_value": "America/Bahia",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Brasilia Time (America/Belem)",
+      "sequence_number": 228,
+      "actual_value": "America/Belem",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Buenos_Aires)",
+      "sequence_number": 229,
+      "actual_value": "America/Buenos_Aires",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Catamarca)",
+      "sequence_number": 230,
+      "actual_value": "America/Catamarca",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) French Guiana Time (America/Cayenne)",
+      "sequence_number": 231,
+      "actual_value": "America/Cayenne",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Cordoba)",
+      "sequence_number": 232,
+      "actual_value": "America/Cordoba",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Brasilia Time (America/Fortaleza)",
+      "sequence_number": 233,
+      "actual_value": "America/Fortaleza",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Jujuy)",
+      "sequence_number": 234,
+      "actual_value": "America/Jujuy",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Brasilia Time (America/Maceio)",
+      "sequence_number": 235,
+      "actual_value": "America/Maceio",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Mendoza)",
+      "sequence_number": 236,
+      "actual_value": "America/Mendoza",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Pierre \u0026 Miquelon Standard Time (America/Miquelon)",
+      "sequence_number": 237,
+      "actual_value": "America/Miquelon",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Uruguay Time (America/Montevideo)",
+      "sequence_number": 238,
+      "actual_value": "America/Montevideo",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Suriname Time (America/Paramaribo)",
+      "sequence_number": 239,
+      "actual_value": "America/Paramaribo",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Punta Arenas Standard Time (America/Punta_Arenas)",
+      "sequence_number": 240,
+      "actual_value": "America/Punta_Arenas",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Brasilia Time (America/Recife)",
+      "sequence_number": 241,
+      "actual_value": "America/Recife",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Argentine Time (America/Rosario)",
+      "sequence_number": 242,
+      "actual_value": "America/Rosario",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Brasilia Time (America/Santarem)",
+      "sequence_number": 243,
+      "actual_value": "America/Santarem",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Brasilia Time (America/Sao_Paulo)",
+      "sequence_number": 244,
+      "actual_value": "America/Sao_Paulo",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Chile Time (Antarctica/Palmer)",
+      "sequence_number": 245,
+      "actual_value": "Antarctica/Palmer",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Rothera Time (Antarctica/Rothera)",
+      "sequence_number": 246,
+      "actual_value": "Antarctica/Rothera",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Falkland Is. Time (Atlantic/Stanley)",
+      "sequence_number": 247,
+      "actual_value": "Atlantic/Stanley",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Brasilia Time (BET)",
+      "sequence_number": 248,
+      "actual_value": "BET",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) Brasilia Time (Brazil/East)",
+      "sequence_number": 249,
+      "actual_value": "Brazil/East",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -3:0) GMT-03:00 (Etc/GMT+3)",
+      "sequence_number": 250,
+      "actual_value": "Etc/GMT+3",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -2:0) Western Greenland Time (America/Godthab)",
+      "sequence_number": 251,
+      "actual_value": "America/Godthab",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -2:0) Fernando de Noronha Time (America/Noronha)",
+      "sequence_number": 252,
+      "actual_value": "America/Noronha",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -2:0) Western Greenland Time (America/Nuuk)",
+      "sequence_number": 253,
+      "actual_value": "America/Nuuk",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -2:0) South Georgia Standard Time (Atlantic/South_Georgia)",
+      "sequence_number": 254,
+      "actual_value": "Atlantic/South_Georgia",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -2:0) Fernando de Noronha Time (Brazil/DeNoronha)",
+      "sequence_number": 255,
+      "actual_value": "Brazil/DeNoronha",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -2:0) GMT-02:00 (Etc/GMT+2)",
+      "sequence_number": 256,
+      "actual_value": "Etc/GMT+2",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -1:0) Eastern Greenland Time (America/Scoresbysund)",
+      "sequence_number": 257,
+      "actual_value": "America/Scoresbysund",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -1:0) Azores Time (Atlantic/Azores)",
+      "sequence_number": 258,
+      "actual_value": "Atlantic/Azores",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -1:0) Cape Verde Time (Atlantic/Cape_Verde)",
+      "sequence_number": 259,
+      "actual_value": "Atlantic/Cape_Verde",
+      "type": null
+    },
+    {
+      "display_value": "(GMT -1:0) GMT-01:00 (Etc/GMT+1)",
+      "sequence_number": 260,
+      "actual_value": "Etc/GMT+1",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Africa/Abidjan)",
+      "sequence_number": 261,
+      "actual_value": "Africa/Abidjan",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Ghana Mean Time (Africa/Accra)",
+      "sequence_number": 262,
+      "actual_value": "Africa/Accra",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Africa/Bamako)",
+      "sequence_number": 263,
+      "actual_value": "Africa/Bamako",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Africa/Banjul)",
+      "sequence_number": 264,
+      "actual_value": "Africa/Banjul",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Africa/Bissau)",
+      "sequence_number": 265,
+      "actual_value": "Africa/Bissau",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Western European Summer Time (Africa/Casablanca)",
+      "sequence_number": 266,
+      "actual_value": "Africa/Casablanca",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Africa/Conakry)",
+      "sequence_number": 267,
+      "actual_value": "Africa/Conakry",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Africa/Dakar)",
+      "sequence_number": 268,
+      "actual_value": "Africa/Dakar",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Western European Summer Time (Africa/El_Aaiun)",
+      "sequence_number": 269,
+      "actual_value": "Africa/El_Aaiun",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Africa/Freetown)",
+      "sequence_number": 270,
+      "actual_value": "Africa/Freetown",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Africa/Lome)",
+      "sequence_number": 271,
+      "actual_value": "Africa/Lome",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Africa/Monrovia)",
+      "sequence_number": 272,
+      "actual_value": "Africa/Monrovia",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Africa/Nouakchott)",
+      "sequence_number": 273,
+      "actual_value": "Africa/Nouakchott",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Africa/Ouagadougou)",
+      "sequence_number": 274,
+      "actual_value": "Africa/Ouagadougou",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Africa/Sao_Tome)",
+      "sequence_number": 275,
+      "actual_value": "Africa/Sao_Tome",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Africa/Timbuktu)",
+      "sequence_number": 276,
+      "actual_value": "Africa/Timbuktu",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (America/Danmarkshavn)",
+      "sequence_number": 277,
+      "actual_value": "America/Danmarkshavn",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Coordinated Universal Time (Antarctica/Troll)",
+      "sequence_number": 278,
+      "actual_value": "Antarctica/Troll",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Western European Time (Atlantic/Canary)",
+      "sequence_number": 279,
+      "actual_value": "Atlantic/Canary",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Western European Time (Atlantic/Faeroe)",
+      "sequence_number": 280,
+      "actual_value": "Atlantic/Faeroe",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Western European Time (Atlantic/Faroe)",
+      "sequence_number": 281,
+      "actual_value": "Atlantic/Faroe",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Western European Time (Atlantic/Madeira)",
+      "sequence_number": 282,
+      "actual_value": "Atlantic/Madeira",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Atlantic/Reykjavik)",
+      "sequence_number": 283,
+      "actual_value": "Atlantic/Reykjavik",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Atlantic/St_Helena)",
+      "sequence_number": 284,
+      "actual_value": "Atlantic/St_Helena",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Eire)",
+      "sequence_number": 285,
+      "actual_value": "Eire",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Etc/GMT)",
+      "sequence_number": 286,
+      "actual_value": "Etc/GMT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Etc/GMT+0)",
+      "sequence_number": 287,
+      "actual_value": "Etc/GMT+0",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Etc/GMT-0)",
+      "sequence_number": 288,
+      "actual_value": "Etc/GMT-0",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Etc/GMT0)",
+      "sequence_number": 289,
+      "actual_value": "Etc/GMT0",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Etc/Greenwich)",
+      "sequence_number": 290,
+      "actual_value": "Etc/Greenwich",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Coordinated Universal Time (Etc/UCT)",
+      "sequence_number": 291,
+      "actual_value": "Etc/UCT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Coordinated Universal Time (Etc/UTC)",
+      "sequence_number": 292,
+      "actual_value": "Etc/UTC",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Coordinated Universal Time (Etc/Universal)",
+      "sequence_number": 293,
+      "actual_value": "Etc/Universal",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Coordinated Universal Time (Etc/Zulu)",
+      "sequence_number": 294,
+      "actual_value": "Etc/Zulu",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Europe/Belfast)",
+      "sequence_number": 295,
+      "actual_value": "Europe/Belfast",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Europe/Dublin)",
+      "sequence_number": 296,
+      "actual_value": "Europe/Dublin",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Europe/Guernsey)",
+      "sequence_number": 297,
+      "actual_value": "Europe/Guernsey",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Europe/Isle_of_Man)",
+      "sequence_number": 298,
+      "actual_value": "Europe/Isle_of_Man",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Europe/Jersey)",
+      "sequence_number": 299,
+      "actual_value": "Europe/Jersey",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Western European Time (Europe/Lisbon)",
+      "sequence_number": 300,
+      "actual_value": "Europe/Lisbon",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Europe/London)",
+      "sequence_number": 301,
+      "actual_value": "Europe/London",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (GB)",
+      "sequence_number": 302,
+      "actual_value": "GB",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (GB-Eire)",
+      "sequence_number": 303,
+      "actual_value": "GB-Eire",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (GMT)",
+      "sequence_number": 304,
+      "actual_value": "GMT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (GMT0)",
+      "sequence_number": 305,
+      "actual_value": "GMT0",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Greenwich)",
+      "sequence_number": 306,
+      "actual_value": "Greenwich",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Greenwich Mean Time (Iceland)",
+      "sequence_number": 307,
+      "actual_value": "Iceland",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Western European Time (Portugal)",
+      "sequence_number": 308,
+      "actual_value": "Portugal",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Coordinated Universal Time (UCT)",
+      "sequence_number": 309,
+      "actual_value": "UCT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Coordinated Universal Time (UTC)",
+      "sequence_number": 310,
+      "actual_value": "UTC",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Coordinated Universal Time (Universal)",
+      "sequence_number": 311,
+      "actual_value": "Universal",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Western European Time (WET)",
+      "sequence_number": 312,
+      "actual_value": "WET",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 0:0) Coordinated Universal Time (Zulu)",
+      "sequence_number": 313,
+      "actual_value": "Zulu",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Africa/Algiers)",
+      "sequence_number": 314,
+      "actual_value": "Africa/Algiers",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Western African Time (Africa/Bangui)",
+      "sequence_number": 315,
+      "actual_value": "Africa/Bangui",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Western African Time (Africa/Brazzaville)",
+      "sequence_number": 316,
+      "actual_value": "Africa/Brazzaville",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Africa/Ceuta)",
+      "sequence_number": 317,
+      "actual_value": "Africa/Ceuta",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Western African Time (Africa/Douala)",
+      "sequence_number": 318,
+      "actual_value": "Africa/Douala",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Western African Time (Africa/Kinshasa)",
+      "sequence_number": 319,
+      "actual_value": "Africa/Kinshasa",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Western African Time (Africa/Lagos)",
+      "sequence_number": 320,
+      "actual_value": "Africa/Lagos",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Western African Time (Africa/Libreville)",
+      "sequence_number": 321,
+      "actual_value": "Africa/Libreville",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Western African Time (Africa/Luanda)",
+      "sequence_number": 322,
+      "actual_value": "Africa/Luanda",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Western African Time (Africa/Malabo)",
+      "sequence_number": 323,
+      "actual_value": "Africa/Malabo",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Western African Time (Africa/Ndjamena)",
+      "sequence_number": 324,
+      "actual_value": "Africa/Ndjamena",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Western African Time (Africa/Niamey)",
+      "sequence_number": 325,
+      "actual_value": "Africa/Niamey",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Western African Time (Africa/Porto-Novo)",
+      "sequence_number": 326,
+      "actual_value": "Africa/Porto-Novo",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Africa/Tunis)",
+      "sequence_number": 327,
+      "actual_value": "Africa/Tunis",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Western African Time (Africa/Windhoek)",
+      "sequence_number": 328,
+      "actual_value": "Africa/Windhoek",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Arctic/Longyearbyen)",
+      "sequence_number": 329,
+      "actual_value": "Arctic/Longyearbyen",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Atlantic/Jan_Mayen)",
+      "sequence_number": 330,
+      "actual_value": "Atlantic/Jan_Mayen",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (CET)",
+      "sequence_number": 331,
+      "actual_value": "CET",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (ECT)",
+      "sequence_number": 332,
+      "actual_value": "ECT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) GMT+01:00 (Etc/GMT-1)",
+      "sequence_number": 333,
+      "actual_value": "Etc/GMT-1",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Amsterdam)",
+      "sequence_number": 334,
+      "actual_value": "Europe/Amsterdam",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Andorra)",
+      "sequence_number": 335,
+      "actual_value": "Europe/Andorra",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Belgrade)",
+      "sequence_number": 336,
+      "actual_value": "Europe/Belgrade",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Berlin)",
+      "sequence_number": 337,
+      "actual_value": "Europe/Berlin",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Bratislava)",
+      "sequence_number": 338,
+      "actual_value": "Europe/Bratislava",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Brussels)",
+      "sequence_number": 339,
+      "actual_value": "Europe/Brussels",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Budapest)",
+      "sequence_number": 340,
+      "actual_value": "Europe/Budapest",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Busingen)",
+      "sequence_number": 341,
+      "actual_value": "Europe/Busingen",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Copenhagen)",
+      "sequence_number": 342,
+      "actual_value": "Europe/Copenhagen",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Gibraltar)",
+      "sequence_number": 343,
+      "actual_value": "Europe/Gibraltar",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Ljubljana)",
+      "sequence_number": 344,
+      "actual_value": "Europe/Ljubljana",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Luxembourg)",
+      "sequence_number": 345,
+      "actual_value": "Europe/Luxembourg",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Madrid)",
+      "sequence_number": 346,
+      "actual_value": "Europe/Madrid",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Malta)",
+      "sequence_number": 347,
+      "actual_value": "Europe/Malta",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Monaco)",
+      "sequence_number": 348,
+      "actual_value": "Europe/Monaco",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Oslo)",
+      "sequence_number": 349,
+      "actual_value": "Europe/Oslo",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Paris)",
+      "sequence_number": 350,
+      "actual_value": "Europe/Paris",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Podgorica)",
+      "sequence_number": 351,
+      "actual_value": "Europe/Podgorica",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Prague)",
+      "sequence_number": 352,
+      "actual_value": "Europe/Prague",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Rome)",
+      "sequence_number": 353,
+      "actual_value": "Europe/Rome",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/San_Marino)",
+      "sequence_number": 354,
+      "actual_value": "Europe/San_Marino",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Sarajevo)",
+      "sequence_number": 355,
+      "actual_value": "Europe/Sarajevo",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Skopje)",
+      "sequence_number": 356,
+      "actual_value": "Europe/Skopje",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Stockholm)",
+      "sequence_number": 357,
+      "actual_value": "Europe/Stockholm",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Tirane)",
+      "sequence_number": 358,
+      "actual_value": "Europe/Tirane",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Vaduz)",
+      "sequence_number": 359,
+      "actual_value": "Europe/Vaduz",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Vatican)",
+      "sequence_number": 360,
+      "actual_value": "Europe/Vatican",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Vienna)",
+      "sequence_number": 361,
+      "actual_value": "Europe/Vienna",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Warsaw)",
+      "sequence_number": 362,
+      "actual_value": "Europe/Warsaw",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Zagreb)",
+      "sequence_number": 363,
+      "actual_value": "Europe/Zagreb",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Europe/Zurich)",
+      "sequence_number": 364,
+      "actual_value": "Europe/Zurich",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Middle Europe Time (MET)",
+      "sequence_number": 365,
+      "actual_value": "MET",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 1:0) Central European Time (Poland)",
+      "sequence_number": 366,
+      "actual_value": "Poland",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (ART)",
+      "sequence_number": 367,
+      "actual_value": "ART",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Central African Time (Africa/Blantyre)",
+      "sequence_number": 368,
+      "actual_value": "Africa/Blantyre",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Central African Time (Africa/Bujumbura)",
+      "sequence_number": 369,
+      "actual_value": "Africa/Bujumbura",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Africa/Cairo)",
+      "sequence_number": 370,
+      "actual_value": "Africa/Cairo",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Central African Time (Africa/Gaborone)",
+      "sequence_number": 371,
+      "actual_value": "Africa/Gaborone",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Central African Time (Africa/Harare)",
+      "sequence_number": 372,
+      "actual_value": "Africa/Harare",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) South Africa Standard Time (Africa/Johannesburg)",
+      "sequence_number": 373,
+      "actual_value": "Africa/Johannesburg",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Central African Time (Africa/Juba)",
+      "sequence_number": 374,
+      "actual_value": "Africa/Juba",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Central African Time (Africa/Khartoum)",
+      "sequence_number": 375,
+      "actual_value": "Africa/Khartoum",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Central African Time (Africa/Kigali)",
+      "sequence_number": 376,
+      "actual_value": "Africa/Kigali",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Central African Time (Africa/Lubumbashi)",
+      "sequence_number": 377,
+      "actual_value": "Africa/Lubumbashi",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Central African Time (Africa/Lusaka)",
+      "sequence_number": 378,
+      "actual_value": "Africa/Lusaka",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Central African Time (Africa/Maputo)",
+      "sequence_number": 379,
+      "actual_value": "Africa/Maputo",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) South Africa Standard Time (Africa/Maseru)",
+      "sequence_number": 380,
+      "actual_value": "Africa/Maseru",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) South Africa Standard Time (Africa/Mbabane)",
+      "sequence_number": 381,
+      "actual_value": "Africa/Mbabane",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Africa/Tripoli)",
+      "sequence_number": 382,
+      "actual_value": "Africa/Tripoli",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Asia/Beirut)",
+      "sequence_number": 383,
+      "actual_value": "Asia/Beirut",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Asia/Famagusta)",
+      "sequence_number": 384,
+      "actual_value": "Asia/Famagusta",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Asia/Gaza)",
+      "sequence_number": 385,
+      "actual_value": "Asia/Gaza",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Asia/Hebron)",
+      "sequence_number": 386,
+      "actual_value": "Asia/Hebron",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Israel Standard Time (Asia/Jerusalem)",
+      "sequence_number": 387,
+      "actual_value": "Asia/Jerusalem",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Asia/Nicosia)",
+      "sequence_number": 388,
+      "actual_value": "Asia/Nicosia",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Israel Standard Time (Asia/Tel_Aviv)",
+      "sequence_number": 389,
+      "actual_value": "Asia/Tel_Aviv",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Central African Time (CAT)",
+      "sequence_number": 390,
+      "actual_value": "CAT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (EET)",
+      "sequence_number": 391,
+      "actual_value": "EET",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Egypt)",
+      "sequence_number": 392,
+      "actual_value": "Egypt",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) GMT+02:00 (Etc/GMT-2)",
+      "sequence_number": 393,
+      "actual_value": "Etc/GMT-2",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Europe/Athens)",
+      "sequence_number": 394,
+      "actual_value": "Europe/Athens",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Europe/Bucharest)",
+      "sequence_number": 395,
+      "actual_value": "Europe/Bucharest",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Europe/Chisinau)",
+      "sequence_number": 396,
+      "actual_value": "Europe/Chisinau",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Europe/Helsinki)",
+      "sequence_number": 397,
+      "actual_value": "Europe/Helsinki",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Europe/Kaliningrad)",
+      "sequence_number": 398,
+      "actual_value": "Europe/Kaliningrad",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Europe/Kiev)",
+      "sequence_number": 399,
+      "actual_value": "Europe/Kiev",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Europe/Kyiv)",
+      "sequence_number": 400,
+      "actual_value": "Europe/Kyiv",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Europe/Mariehamn)",
+      "sequence_number": 401,
+      "actual_value": "Europe/Mariehamn",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Europe/Nicosia)",
+      "sequence_number": 402,
+      "actual_value": "Europe/Nicosia",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Europe/Riga)",
+      "sequence_number": 403,
+      "actual_value": "Europe/Riga",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Europe/Sofia)",
+      "sequence_number": 404,
+      "actual_value": "Europe/Sofia",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Europe/Tallinn)",
+      "sequence_number": 405,
+      "actual_value": "Europe/Tallinn",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Europe/Tiraspol)",
+      "sequence_number": 406,
+      "actual_value": "Europe/Tiraspol",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Europe/Uzhgorod)",
+      "sequence_number": 407,
+      "actual_value": "Europe/Uzhgorod",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Europe/Vilnius)",
+      "sequence_number": 408,
+      "actual_value": "Europe/Vilnius",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Europe/Zaporozhye)",
+      "sequence_number": 409,
+      "actual_value": "Europe/Zaporozhye",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Israel Standard Time (Israel)",
+      "sequence_number": 410,
+      "actual_value": "Israel",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 2:0) Eastern European Time (Libya)",
+      "sequence_number": 411,
+      "actual_value": "Libya",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Eastern African Time (Africa/Addis_Ababa)",
+      "sequence_number": 412,
+      "actual_value": "Africa/Addis_Ababa",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Eastern African Time (Africa/Asmara)",
+      "sequence_number": 413,
+      "actual_value": "Africa/Asmara",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Eastern African Time (Africa/Asmera)",
+      "sequence_number": 414,
+      "actual_value": "Africa/Asmera",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Eastern African Time (Africa/Dar_es_Salaam)",
+      "sequence_number": 415,
+      "actual_value": "Africa/Dar_es_Salaam",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Eastern African Time (Africa/Djibouti)",
+      "sequence_number": 416,
+      "actual_value": "Africa/Djibouti",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Eastern African Time (Africa/Kampala)",
+      "sequence_number": 417,
+      "actual_value": "Africa/Kampala",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Eastern African Time (Africa/Mogadishu)",
+      "sequence_number": 418,
+      "actual_value": "Africa/Mogadishu",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Eastern African Time (Africa/Nairobi)",
+      "sequence_number": 419,
+      "actual_value": "Africa/Nairobi",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Syowa Time (Antarctica/Syowa)",
+      "sequence_number": 420,
+      "actual_value": "Antarctica/Syowa",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Arabia Standard Time (Asia/Aden)",
+      "sequence_number": 421,
+      "actual_value": "Asia/Aden",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Eastern European Time (Asia/Amman)",
+      "sequence_number": 422,
+      "actual_value": "Asia/Amman",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Arabia Standard Time (Asia/Baghdad)",
+      "sequence_number": 423,
+      "actual_value": "Asia/Baghdad",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Arabia Standard Time (Asia/Bahrain)",
+      "sequence_number": 424,
+      "actual_value": "Asia/Bahrain",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Eastern European Time (Asia/Damascus)",
+      "sequence_number": 425,
+      "actual_value": "Asia/Damascus",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Turkey Time (Asia/Istanbul)",
+      "sequence_number": 426,
+      "actual_value": "Asia/Istanbul",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Arabia Standard Time (Asia/Kuwait)",
+      "sequence_number": 427,
+      "actual_value": "Asia/Kuwait",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Arabia Standard Time (Asia/Qatar)",
+      "sequence_number": 428,
+      "actual_value": "Asia/Qatar",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Arabia Standard Time (Asia/Riyadh)",
+      "sequence_number": 429,
+      "actual_value": "Asia/Riyadh",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Eastern African Time (EAT)",
+      "sequence_number": 430,
+      "actual_value": "EAT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) GMT+03:00 (Etc/GMT-3)",
+      "sequence_number": 431,
+      "actual_value": "Etc/GMT-3",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Turkey Time (Europe/Istanbul)",
+      "sequence_number": 432,
+      "actual_value": "Europe/Istanbul",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Moscow Standard Time (Europe/Kirov)",
+      "sequence_number": 433,
+      "actual_value": "Europe/Kirov",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Moscow Standard Time (Europe/Minsk)",
+      "sequence_number": 434,
+      "actual_value": "Europe/Minsk",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Moscow Standard Time (Europe/Moscow)",
+      "sequence_number": 435,
+      "actual_value": "Europe/Moscow",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Moscow Standard Time (Europe/Simferopol)",
+      "sequence_number": 436,
+      "actual_value": "Europe/Simferopol",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Moscow Standard Time (Europe/Volgograd)",
+      "sequence_number": 437,
+      "actual_value": "Europe/Volgograd",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Eastern African Time (Indian/Antananarivo)",
+      "sequence_number": 438,
+      "actual_value": "Indian/Antananarivo",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Eastern African Time (Indian/Comoro)",
+      "sequence_number": 439,
+      "actual_value": "Indian/Comoro",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Eastern African Time (Indian/Mayotte)",
+      "sequence_number": 440,
+      "actual_value": "Indian/Mayotte",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Turkey Time (Turkey)",
+      "sequence_number": 441,
+      "actual_value": "Turkey",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:0) Moscow Standard Time (W-SU)",
+      "sequence_number": 442,
+      "actual_value": "W-SU",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:30) Iran Standard Time (Asia/Tehran)",
+      "sequence_number": 443,
+      "actual_value": "Asia/Tehran",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 3:30) Iran Standard Time (Iran)",
+      "sequence_number": 444,
+      "actual_value": "Iran",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 4:0) Azerbaijan Time (Asia/Baku)",
+      "sequence_number": 445,
+      "actual_value": "Asia/Baku",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 4:0) Gulf Standard Time (Asia/Dubai)",
+      "sequence_number": 446,
+      "actual_value": "Asia/Dubai",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 4:0) Gulf Standard Time (Asia/Muscat)",
+      "sequence_number": 447,
+      "actual_value": "Asia/Muscat",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 4:0) Georgia Time (Asia/Tbilisi)",
+      "sequence_number": 448,
+      "actual_value": "Asia/Tbilisi",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 4:0) Armenia Time (Asia/Yerevan)",
+      "sequence_number": 449,
+      "actual_value": "Asia/Yerevan",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 4:0) GMT+04:00 (Etc/GMT-4)",
+      "sequence_number": 450,
+      "actual_value": "Etc/GMT-4",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 4:0) Astrakhan Standard Time (Europe/Astrakhan)",
+      "sequence_number": 451,
+      "actual_value": "Europe/Astrakhan",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 4:0) Samara Time (Europe/Samara)",
+      "sequence_number": 452,
+      "actual_value": "Europe/Samara",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 4:0) Saratov Standard Time (Europe/Saratov)",
+      "sequence_number": 453,
+      "actual_value": "Europe/Saratov",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 4:0) Ulyanovsk Standard Time (Europe/Ulyanovsk)",
+      "sequence_number": 454,
+      "actual_value": "Europe/Ulyanovsk",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 4:0) Seychelles Time (Indian/Mahe)",
+      "sequence_number": 455,
+      "actual_value": "Indian/Mahe",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 4:0) Mauritius Time (Indian/Mauritius)",
+      "sequence_number": 456,
+      "actual_value": "Indian/Mauritius",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 4:0) Reunion Time (Indian/Reunion)",
+      "sequence_number": 457,
+      "actual_value": "Indian/Reunion",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 4:0) Armenia Time (NET)",
+      "sequence_number": 458,
+      "actual_value": "NET",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 4:30) Afghanistan Time (Asia/Kabul)",
+      "sequence_number": 459,
+      "actual_value": "Asia/Kabul",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:0) Mawson Time (Antarctica/Mawson)",
+      "sequence_number": 460,
+      "actual_value": "Antarctica/Mawson",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:0) Aqtau Time (Asia/Aqtau)",
+      "sequence_number": 461,
+      "actual_value": "Asia/Aqtau",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:0) Aqtobe Time (Asia/Aqtobe)",
+      "sequence_number": 462,
+      "actual_value": "Asia/Aqtobe",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:0) Turkmenistan Time (Asia/Ashgabat)",
+      "sequence_number": 463,
+      "actual_value": "Asia/Ashgabat",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:0) Turkmenistan Time (Asia/Ashkhabad)",
+      "sequence_number": 464,
+      "actual_value": "Asia/Ashkhabad",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:0) GMT+05:00 (Asia/Atyrau)",
+      "sequence_number": 465,
+      "actual_value": "Asia/Atyrau",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:0) Tajikistan Time (Asia/Dushanbe)",
+      "sequence_number": 466,
+      "actual_value": "Asia/Dushanbe",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:0) Pakistan Time (Asia/Karachi)",
+      "sequence_number": 467,
+      "actual_value": "Asia/Karachi",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:0) Oral Time (Asia/Oral)",
+      "sequence_number": 468,
+      "actual_value": "Asia/Oral",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:0) Qyzylorda Time (Asia/Qyzylorda)",
+      "sequence_number": 469,
+      "actual_value": "Asia/Qyzylorda",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:0) Uzbekistan Time (Asia/Samarkand)",
+      "sequence_number": 470,
+      "actual_value": "Asia/Samarkand",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:0) Uzbekistan Time (Asia/Tashkent)",
+      "sequence_number": 471,
+      "actual_value": "Asia/Tashkent",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:0) Yekaterinburg Time (Asia/Yekaterinburg)",
+      "sequence_number": 472,
+      "actual_value": "Asia/Yekaterinburg",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:0) GMT+05:00 (Etc/GMT-5)",
+      "sequence_number": 473,
+      "actual_value": "Etc/GMT-5",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:0) French Southern \u0026 Antarctic Lands Time (Indian/Kerguelen)",
+      "sequence_number": 474,
+      "actual_value": "Indian/Kerguelen",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:0) Maldives Time (Indian/Maldives)",
+      "sequence_number": 475,
+      "actual_value": "Indian/Maldives",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:0) Pakistan Time (PLT)",
+      "sequence_number": 476,
+      "actual_value": "PLT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:30) India Standard Time (Asia/Calcutta)",
+      "sequence_number": 477,
+      "actual_value": "Asia/Calcutta",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:30) India Standard Time (Asia/Colombo)",
+      "sequence_number": 478,
+      "actual_value": "Asia/Colombo",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:30) India Standard Time (Asia/Kolkata)",
+      "sequence_number": 479,
+      "actual_value": "Asia/Kolkata",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:30) India Standard Time (IST)",
+      "sequence_number": 480,
+      "actual_value": "IST",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:45) Nepal Time (Asia/Kathmandu)",
+      "sequence_number": 481,
+      "actual_value": "Asia/Kathmandu",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 5:45) Nepal Time (Asia/Katmandu)",
+      "sequence_number": 482,
+      "actual_value": "Asia/Katmandu",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 6:0) Vostok Time (Antarctica/Vostok)",
+      "sequence_number": 483,
+      "actual_value": "Antarctica/Vostok",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 6:0) Alma-Ata Time (Asia/Almaty)",
+      "sequence_number": 484,
+      "actual_value": "Asia/Almaty",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 6:0) Kirgizstan Time (Asia/Bishkek)",
+      "sequence_number": 485,
+      "actual_value": "Asia/Bishkek",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 6:0) Bangladesh Time (Asia/Dacca)",
+      "sequence_number": 486,
+      "actual_value": "Asia/Dacca",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 6:0) Bangladesh Time (Asia/Dhaka)",
+      "sequence_number": 487,
+      "actual_value": "Asia/Dhaka",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 6:0) Xinjiang Standard Time (Asia/Kashgar)",
+      "sequence_number": 488,
+      "actual_value": "Asia/Kashgar",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 6:0) Omsk Time (Asia/Omsk)",
+      "sequence_number": 489,
+      "actual_value": "Asia/Omsk",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 6:0) Kostanay Standard Time (Asia/Qostanay)",
+      "sequence_number": 490,
+      "actual_value": "Asia/Qostanay",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 6:0) Bhutan Time (Asia/Thimbu)",
+      "sequence_number": 491,
+      "actual_value": "Asia/Thimbu",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 6:0) Bhutan Time (Asia/Thimphu)",
+      "sequence_number": 492,
+      "actual_value": "Asia/Thimphu",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 6:0) Xinjiang Standard Time (Asia/Urumqi)",
+      "sequence_number": 493,
+      "actual_value": "Asia/Urumqi",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 6:0) Bangladesh Time (BST)",
+      "sequence_number": 494,
+      "actual_value": "BST",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 6:0) GMT+06:00 (Etc/GMT-6)",
+      "sequence_number": 495,
+      "actual_value": "Etc/GMT-6",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 6:0) Indian Ocean Territory Time (Indian/Chagos)",
+      "sequence_number": 496,
+      "actual_value": "Indian/Chagos",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 6:30) Myanmar Time (Asia/Rangoon)",
+      "sequence_number": 497,
+      "actual_value": "Asia/Rangoon",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 6:30) Myanmar Time (Asia/Yangon)",
+      "sequence_number": 498,
+      "actual_value": "Asia/Yangon",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 6:30) Cocos Islands Time (Indian/Cocos)",
+      "sequence_number": 499,
+      "actual_value": "Indian/Cocos",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 7:0) Davis Time (Antarctica/Davis)",
+      "sequence_number": 500,
+      "actual_value": "Antarctica/Davis",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 7:0) Indochina Time (Asia/Bangkok)",
+      "sequence_number": 501,
+      "actual_value": "Asia/Bangkok",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 7:0) Barnaul Standard Time (Asia/Barnaul)",
+      "sequence_number": 502,
+      "actual_value": "Asia/Barnaul",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 7:0) Indochina Time (Asia/Ho_Chi_Minh)",
+      "sequence_number": 503,
+      "actual_value": "Asia/Ho_Chi_Minh",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 7:0) Hovd Time (Asia/Hovd)",
+      "sequence_number": 504,
+      "actual_value": "Asia/Hovd",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 7:0) West Indonesia Time (Asia/Jakarta)",
+      "sequence_number": 505,
+      "actual_value": "Asia/Jakarta",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 7:0) Krasnoyarsk Time (Asia/Krasnoyarsk)",
+      "sequence_number": 506,
+      "actual_value": "Asia/Krasnoyarsk",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 7:0) Krasnoyarsk Time (Asia/Novokuznetsk)",
+      "sequence_number": 507,
+      "actual_value": "Asia/Novokuznetsk",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 7:0) Novosibirsk Time (Asia/Novosibirsk)",
+      "sequence_number": 508,
+      "actual_value": "Asia/Novosibirsk",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 7:0) Indochina Time (Asia/Phnom_Penh)",
+      "sequence_number": 509,
+      "actual_value": "Asia/Phnom_Penh",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 7:0) West Indonesia Time (Asia/Pontianak)",
+      "sequence_number": 510,
+      "actual_value": "Asia/Pontianak",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 7:0) Indochina Time (Asia/Saigon)",
+      "sequence_number": 511,
+      "actual_value": "Asia/Saigon",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 7:0) Tomsk Standard Time (Asia/Tomsk)",
+      "sequence_number": 512,
+      "actual_value": "Asia/Tomsk",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 7:0) Indochina Time (Asia/Vientiane)",
+      "sequence_number": 513,
+      "actual_value": "Asia/Vientiane",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 7:0) GMT+07:00 (Etc/GMT-7)",
+      "sequence_number": 514,
+      "actual_value": "Etc/GMT-7",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 7:0) Christmas Island Time (Indian/Christmas)",
+      "sequence_number": 515,
+      "actual_value": "Indian/Christmas",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 7:0) Indochina Time (VST)",
+      "sequence_number": 516,
+      "actual_value": "VST",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) Brunei Time (Asia/Brunei)",
+      "sequence_number": 517,
+      "actual_value": "Asia/Brunei",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) Choibalsan Time (Asia/Choibalsan)",
+      "sequence_number": 518,
+      "actual_value": "Asia/Choibalsan",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) China Standard Time (Asia/Chongqing)",
+      "sequence_number": 519,
+      "actual_value": "Asia/Chongqing",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) China Standard Time (Asia/Chungking)",
+      "sequence_number": 520,
+      "actual_value": "Asia/Chungking",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) China Standard Time (Asia/Harbin)",
+      "sequence_number": 521,
+      "actual_value": "Asia/Harbin",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) Hong Kong Time (Asia/Hong_Kong)",
+      "sequence_number": 522,
+      "actual_value": "Asia/Hong_Kong",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) Irkutsk Time (Asia/Irkutsk)",
+      "sequence_number": 523,
+      "actual_value": "Asia/Irkutsk",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) Malaysia Time (Asia/Kuala_Lumpur)",
+      "sequence_number": 524,
+      "actual_value": "Asia/Kuala_Lumpur",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) Malaysia Time (Asia/Kuching)",
+      "sequence_number": 525,
+      "actual_value": "Asia/Kuching",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) China Standard Time (Asia/Macao)",
+      "sequence_number": 526,
+      "actual_value": "Asia/Macao",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) China Standard Time (Asia/Macau)",
+      "sequence_number": 527,
+      "actual_value": "Asia/Macau",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) Central Indonesia Time (Asia/Makassar)",
+      "sequence_number": 528,
+      "actual_value": "Asia/Makassar",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) Philippines Standard Time (Asia/Manila)",
+      "sequence_number": 529,
+      "actual_value": "Asia/Manila",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) China Standard Time (Asia/Shanghai)",
+      "sequence_number": 530,
+      "actual_value": "Asia/Shanghai",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) Singapore Time (Asia/Singapore)",
+      "sequence_number": 531,
+      "actual_value": "Asia/Singapore",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) China Standard Time (Asia/Taipei)",
+      "sequence_number": 532,
+      "actual_value": "Asia/Taipei",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) Central Indonesia Time (Asia/Ujung_Pandang)",
+      "sequence_number": 533,
+      "actual_value": "Asia/Ujung_Pandang",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) Ulaanbaatar Time (Asia/Ulaanbaatar)",
+      "sequence_number": 534,
+      "actual_value": "Asia/Ulaanbaatar",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) Ulaanbaatar Time (Asia/Ulan_Bator)",
+      "sequence_number": 535,
+      "actual_value": "Asia/Ulan_Bator",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) Australian Western Standard Time (Australia/Perth)",
+      "sequence_number": 536,
+      "actual_value": "Australia/Perth",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) Australian Western Standard Time (Australia/West)",
+      "sequence_number": 537,
+      "actual_value": "Australia/West",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) China Standard Time (CTT)",
+      "sequence_number": 538,
+      "actual_value": "CTT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) GMT+08:00 (Etc/GMT-8)",
+      "sequence_number": 539,
+      "actual_value": "Etc/GMT-8",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) Hong Kong Time (Hongkong)",
+      "sequence_number": 540,
+      "actual_value": "Hongkong",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) China Standard Time (PRC)",
+      "sequence_number": 541,
+      "actual_value": "PRC",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:0) Singapore Time (Singapore)",
+      "sequence_number": 542,
+      "actual_value": "Singapore",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 8:45) Australian Central Western Standard Time (Australia/Eucla)",
+      "sequence_number": 543,
+      "actual_value": "Australia/Eucla",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 9:0) Yakutsk Time (Asia/Chita)",
+      "sequence_number": 544,
+      "actual_value": "Asia/Chita",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 9:0) Timor-Leste Time (Asia/Dili)",
+      "sequence_number": 545,
+      "actual_value": "Asia/Dili",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 9:0) East Indonesia Time (Asia/Jayapura)",
+      "sequence_number": 546,
+      "actual_value": "Asia/Jayapura",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 9:0) Yakutsk Time (Asia/Khandyga)",
+      "sequence_number": 547,
+      "actual_value": "Asia/Khandyga",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 9:0) Korea Standard Time (Asia/Pyongyang)",
+      "sequence_number": 548,
+      "actual_value": "Asia/Pyongyang",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 9:0) Korea Standard Time (Asia/Seoul)",
+      "sequence_number": 549,
+      "actual_value": "Asia/Seoul",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 9:0) Japan Standard Time (Asia/Tokyo)",
+      "sequence_number": 550,
+      "actual_value": "Asia/Tokyo",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 9:0) Yakutsk Time (Asia/Yakutsk)",
+      "sequence_number": 551,
+      "actual_value": "Asia/Yakutsk",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 9:0) GMT+09:00 (Etc/GMT-9)",
+      "sequence_number": 552,
+      "actual_value": "Etc/GMT-9",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 9:0) Japan Standard Time (JST)",
+      "sequence_number": 553,
+      "actual_value": "JST",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 9:0) Japan Standard Time (Japan)",
+      "sequence_number": 554,
+      "actual_value": "Japan",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 9:0) Palau Time (Pacific/Palau)",
+      "sequence_number": 555,
+      "actual_value": "Pacific/Palau",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 9:0) Korea Standard Time (ROK)",
+      "sequence_number": 556,
+      "actual_value": "ROK",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 9:30) Australian Central Standard Time (Northern Territory) (ACT)",
+      "sequence_number": 557,
+      "actual_value": "ACT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 10:30) Australian Central Daylight Time (South Australia) (Australia/Adelaide)",
+      "sequence_number": 558,
+      "actual_value": "Australia/Adelaide",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 10:30) Australian Central Daylight Time (South Australia/New South Wales) (Australia/Broken_Hill)",
+      "sequence_number": 559,
+      "actual_value": "Australia/Broken_Hill",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 9:30) Australian Central Standard Time (Northern Territory) (Australia/Darwin)",
+      "sequence_number": 560,
+      "actual_value": "Australia/Darwin",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 9:30) Australian Central Standard Time (Northern Territory) (Australia/North)",
+      "sequence_number": 561,
+      "actual_value": "Australia/North",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 10:30) Australian Central Daylight Time (South Australia) (Australia/South)",
+      "sequence_number": 562,
+      "actual_value": "Australia/South",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 10:30) Australian Central Daylight Time (South Australia/New South Wales) (Australia/Yancowinna)",
+      "sequence_number": 563,
+      "actual_value": "Australia/Yancowinna",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Australian Eastern Daylight Time (New South Wales) (AET)",
+      "sequence_number": 564,
+      "actual_value": "AET",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 10:0) Dumont-d\u0027Urville Time (Antarctica/DumontDUrville)",
+      "sequence_number": 565,
+      "actual_value": "Antarctica/DumontDUrville",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Australian Eastern Daylight Time (Macquarie) (Antarctica/Macquarie)",
+      "sequence_number": 566,
+      "actual_value": "Antarctica/Macquarie",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 10:0) Ust-Nera Time (Asia/Ust-Nera)",
+      "sequence_number": 567,
+      "actual_value": "Asia/Ust-Nera",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 10:0) Vladivostok Time (Asia/Vladivostok)",
+      "sequence_number": 568,
+      "actual_value": "Asia/Vladivostok",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Australian Eastern Daylight Time (New South Wales) (Australia/ACT)",
+      "sequence_number": 569,
+      "actual_value": "Australia/ACT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 10:0) Australian Eastern Standard Time (Queensland) (Australia/Brisbane)",
+      "sequence_number": 570,
+      "actual_value": "Australia/Brisbane",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Australian Eastern Daylight Time (New South Wales) (Australia/Canberra)",
+      "sequence_number": 571,
+      "actual_value": "Australia/Canberra",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Australian Eastern Daylight Time (New South Wales) (Australia/Currie)",
+      "sequence_number": 572,
+      "actual_value": "Australia/Currie",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Australian Eastern Daylight Time (Tasmania) (Australia/Hobart)",
+      "sequence_number": 573,
+      "actual_value": "Australia/Hobart",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 10:0) Australian Eastern Standard Time (Queensland) (Australia/Lindeman)",
+      "sequence_number": 574,
+      "actual_value": "Australia/Lindeman",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Australian Eastern Daylight Time (Victoria) (Australia/Melbourne)",
+      "sequence_number": 575,
+      "actual_value": "Australia/Melbourne",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Australian Eastern Daylight Time (New South Wales) (Australia/NSW)",
+      "sequence_number": 576,
+      "actual_value": "Australia/NSW",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 10:0) Australian Eastern Standard Time (Queensland) (Australia/Queensland)",
+      "sequence_number": 577,
+      "actual_value": "Australia/Queensland",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Australian Eastern Daylight Time (New South Wales) (Australia/Sydney)",
+      "sequence_number": 578,
+      "actual_value": "Australia/Sydney",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Australian Eastern Daylight Time (Tasmania) (Australia/Tasmania)",
+      "sequence_number": 579,
+      "actual_value": "Australia/Tasmania",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Australian Eastern Daylight Time (Victoria) (Australia/Victoria)",
+      "sequence_number": 580,
+      "actual_value": "Australia/Victoria",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 10:0) GMT+10:00 (Etc/GMT-10)",
+      "sequence_number": 581,
+      "actual_value": "Etc/GMT-10",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 10:0) Chuuk Time (Pacific/Chuuk)",
+      "sequence_number": 582,
+      "actual_value": "Pacific/Chuuk",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 10:0) Chamorro Standard Time (Pacific/Guam)",
+      "sequence_number": 583,
+      "actual_value": "Pacific/Guam",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 10:0) Papua New Guinea Time (Pacific/Port_Moresby)",
+      "sequence_number": 584,
+      "actual_value": "Pacific/Port_Moresby",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 10:0) Chamorro Standard Time (Pacific/Saipan)",
+      "sequence_number": 585,
+      "actual_value": "Pacific/Saipan",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 10:0) Chuuk Time (Pacific/Truk)",
+      "sequence_number": 586,
+      "actual_value": "Pacific/Truk",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 10:0) Chuuk Time (Pacific/Yap)",
+      "sequence_number": 587,
+      "actual_value": "Pacific/Yap",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Lord Howe Daylight Time (Australia/LHI)",
+      "sequence_number": 588,
+      "actual_value": "Australia/LHI",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Lord Howe Daylight Time (Australia/Lord_Howe)",
+      "sequence_number": 589,
+      "actual_value": "Australia/Lord_Howe",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Australian Western Standard Time (Antarctica/Casey)",
+      "sequence_number": 590,
+      "actual_value": "Antarctica/Casey",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Magadan Time (Asia/Magadan)",
+      "sequence_number": 591,
+      "actual_value": "Asia/Magadan",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Sakhalin Time (Asia/Sakhalin)",
+      "sequence_number": 592,
+      "actual_value": "Asia/Sakhalin",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Srednekolymsk Time (Asia/Srednekolymsk)",
+      "sequence_number": 593,
+      "actual_value": "Asia/Srednekolymsk",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) GMT+11:00 (Etc/GMT-11)",
+      "sequence_number": 594,
+      "actual_value": "Etc/GMT-11",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Bougainville Standard Time (Pacific/Bougainville)",
+      "sequence_number": 595,
+      "actual_value": "Pacific/Bougainville",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Vanuatu Time (Pacific/Efate)",
+      "sequence_number": 596,
+      "actual_value": "Pacific/Efate",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Solomon Is. Time (Pacific/Guadalcanal)",
+      "sequence_number": 597,
+      "actual_value": "Pacific/Guadalcanal",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Kosrae Time (Pacific/Kosrae)",
+      "sequence_number": 598,
+      "actual_value": "Pacific/Kosrae",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 12:0) Norfolk Summer Time (Pacific/Norfolk)",
+      "sequence_number": 599,
+      "actual_value": "Pacific/Norfolk",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) New Caledonia Time (Pacific/Noumea)",
+      "sequence_number": 600,
+      "actual_value": "Pacific/Noumea",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Pohnpei Time (Pacific/Pohnpei)",
+      "sequence_number": 601,
+      "actual_value": "Pacific/Pohnpei",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Pohnpei Time (Pacific/Ponape)",
+      "sequence_number": 602,
+      "actual_value": "Pacific/Ponape",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 11:0) Solomon Is. Time (SST)",
+      "sequence_number": 603,
+      "actual_value": "SST",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 13:0) New Zealand Daylight Time (Antarctica/McMurdo)",
+      "sequence_number": 604,
+      "actual_value": "Antarctica/McMurdo",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 13:0) New Zealand Daylight Time (Antarctica/South_Pole)",
+      "sequence_number": 605,
+      "actual_value": "Antarctica/South_Pole",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 12:0) Anadyr Time (Asia/Anadyr)",
+      "sequence_number": 606,
+      "actual_value": "Asia/Anadyr",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 12:0) Petropavlovsk-Kamchatski Time (Asia/Kamchatka)",
+      "sequence_number": 607,
+      "actual_value": "Asia/Kamchatka",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 12:0) GMT+12:00 (Etc/GMT-12)",
+      "sequence_number": 608,
+      "actual_value": "Etc/GMT-12",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 12:0) Marshall Islands Time (Kwajalein)",
+      "sequence_number": 609,
+      "actual_value": "Kwajalein",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 13:0) New Zealand Daylight Time (NST)",
+      "sequence_number": 610,
+      "actual_value": "NST",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 13:0) New Zealand Daylight Time (NZ)",
+      "sequence_number": 611,
+      "actual_value": "NZ",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 13:0) New Zealand Daylight Time (Pacific/Auckland)",
+      "sequence_number": 612,
+      "actual_value": "Pacific/Auckland",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 12:0) Fiji Time (Pacific/Fiji)",
+      "sequence_number": 613,
+      "actual_value": "Pacific/Fiji",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 12:0) Tuvalu Time (Pacific/Funafuti)",
+      "sequence_number": 614,
+      "actual_value": "Pacific/Funafuti",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 12:0) Marshall Islands Time (Pacific/Kwajalein)",
+      "sequence_number": 615,
+      "actual_value": "Pacific/Kwajalein",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 12:0) Marshall Islands Time (Pacific/Majuro)",
+      "sequence_number": 616,
+      "actual_value": "Pacific/Majuro",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 12:0) Nauru Time (Pacific/Nauru)",
+      "sequence_number": 617,
+      "actual_value": "Pacific/Nauru",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 12:0) Gilbert Is. Time (Pacific/Tarawa)",
+      "sequence_number": 618,
+      "actual_value": "Pacific/Tarawa",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 12:0) Wake Time (Pacific/Wake)",
+      "sequence_number": 619,
+      "actual_value": "Pacific/Wake",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 12:0) Wallis \u0026 Futuna Time (Pacific/Wallis)",
+      "sequence_number": 620,
+      "actual_value": "Pacific/Wallis",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 13:45) Chatham Daylight Time (NZ-CHAT)",
+      "sequence_number": 621,
+      "actual_value": "NZ-CHAT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 13:45) Chatham Daylight Time (Pacific/Chatham)",
+      "sequence_number": 622,
+      "actual_value": "Pacific/Chatham",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 13:0) GMT+13:00 (Etc/GMT-13)",
+      "sequence_number": 623,
+      "actual_value": "Etc/GMT-13",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 13:0) West Samoa Standard Time (MIT)",
+      "sequence_number": 624,
+      "actual_value": "MIT",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 13:0) West Samoa Standard Time (Pacific/Apia)",
+      "sequence_number": 625,
+      "actual_value": "Pacific/Apia",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 13:0) Phoenix Is. Time (Pacific/Enderbury)",
+      "sequence_number": 626,
+      "actual_value": "Pacific/Enderbury",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 13:0) Tokelau Time (Pacific/Fakaofo)",
+      "sequence_number": 627,
+      "actual_value": "Pacific/Fakaofo",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 13:0) Phoenix Is. Time (Pacific/Kanton)",
+      "sequence_number": 628,
+      "actual_value": "Pacific/Kanton",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 13:0) Tonga Time (Pacific/Tongatapu)",
+      "sequence_number": 629,
+      "actual_value": "Pacific/Tongatapu",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 14:0) GMT+14:00 (Etc/GMT-14)",
+      "sequence_number": 630,
+      "actual_value": "Etc/GMT-14",
+      "type": null
+    },
+    {
+      "display_value": "(GMT 14:0) Line Is. Time (Pacific/Kiritimati)",
+      "sequence_number": 631,
+      "actual_value": "Pacific/Kiritimati",
+      "type": null
+    }
+  ],
+  "auto_number": null
+}

@@ -1,0 +1,37 @@
+{
+  "visibility": 1,
+  "emailTemplate_support": true,
+  "profiles": [
+    {
+      "api_name": "Administrator"
+    },
+    {
+      "api_name": "Standard"
+    },
+    {
+      "api_name": "ZDKProfile"
+    },
+    {
+      "api_name": "a"
+    }
+  ],
+  "description": null,
+  "filter_supported": true,
+  "display_field": {
+    "api_name": "Subject"
+  },
+  "show_as_tab": true,
+  "web_link": null,
+  "singular_label": "Task",
+  "sequence_number": 6,
+  "inventory_template_supported": false,
+  "api_supported": true,
+  "plural_label": "Tasks",
+  "api_name": "Tasks",
+  "triggers_supported": true,
+  "scoring_supported": false,
+  "webform_supported": false,
+  "module_name": "Tasks",
+  "parent_module": null,
+  "isBlueprintSupported": true
+}

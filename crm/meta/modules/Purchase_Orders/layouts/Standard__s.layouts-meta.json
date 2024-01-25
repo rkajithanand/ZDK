@@ -1,0 +1,688 @@
+{
+  "mode": {
+    "sections": [
+      {
+        "display_label": "Purchase Order Information",
+        "sequence_number": 1,
+        "tab_traversal": 2,
+        "api_name": "Purchase Order Information",
+        "column_count": 2,
+        "name": "Purchase Order Information",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "Owner"
+            }
+          },
+          {
+            "sequence_number": 2,
+            "field": {
+              "api_name": "PO_Number"
+            }
+          },
+          {
+            "sequence_number": 3,
+            "field": {
+              "api_name": "Subject"
+            }
+          },
+          {
+            "sequence_number": 4,
+            "field": {
+              "api_name": "Vendor_Name"
+            }
+          },
+          {
+            "sequence_number": 5,
+            "field": {
+              "api_name": "Requisition_No"
+            }
+          },
+          {
+            "sequence_number": 6,
+            "field": {
+              "api_name": "Tracking_Number"
+            }
+          },
+          {
+            "sequence_number": 7,
+            "field": {
+              "api_name": "Contact_Name"
+            }
+          },
+          {
+            "sequence_number": 8,
+            "field": {
+              "api_name": "PO_Date"
+            }
+          },
+          {
+            "sequence_number": 9,
+            "field": {
+              "api_name": "Due_Date"
+            }
+          },
+          {
+            "sequence_number": 10,
+            "field": {
+              "api_name": "Carrier"
+            }
+          },
+          {
+            "sequence_number": 11,
+            "field": {
+              "api_name": "Excise_Duty"
+            }
+          },
+          {
+            "sequence_number": 12,
+            "field": {
+              "api_name": "Sales_Commission"
+            }
+          },
+          {
+            "sequence_number": 13,
+            "field": {
+              "api_name": "Status"
+            }
+          },
+          {
+            "sequence_number": 14,
+            "field": {
+              "api_name": "Created_By"
+            }
+          },
+          {
+            "sequence_number": 15,
+            "field": {
+              "api_name": "Modified_By"
+            }
+          },
+          {
+            "sequence_number": 16,
+            "field": {
+              "api_name": "Created_Time"
+            }
+          },
+          {
+            "sequence_number": 16,
+            "field": {
+              "api_name": "Tag"
+            }
+          },
+          {
+            "sequence_number": 17,
+            "field": {
+              "api_name": "Modified_Time"
+            }
+          },
+          {
+            "sequence_number": 23,
+            "field": {
+              "api_name": "id"
+            }
+          },
+          {
+            "sequence_number": 27,
+            "field": {
+              "api_name": "Record_Status__s"
+            }
+          },
+          {
+            "sequence_number": 28,
+            "field": {
+              "api_name": "Locked__s"
+            }
+          }
+        ],
+        "type": "used"
+      },
+      {
+        "display_label": "Address Information",
+        "sequence_number": 2,
+        "tab_traversal": 1,
+        "api_name": "Address Information",
+        "column_count": 2,
+        "name": "Address Information",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "Billing_Street"
+            }
+          },
+          {
+            "sequence_number": 2,
+            "field": {
+              "api_name": "Shipping_Street"
+            }
+          },
+          {
+            "sequence_number": 3,
+            "field": {
+              "api_name": "Billing_City"
+            }
+          },
+          {
+            "sequence_number": 4,
+            "field": {
+              "api_name": "Shipping_City"
+            }
+          },
+          {
+            "sequence_number": 5,
+            "field": {
+              "api_name": "Billing_State"
+            }
+          },
+          {
+            "sequence_number": 6,
+            "field": {
+              "api_name": "Shipping_State"
+            }
+          },
+          {
+            "sequence_number": 7,
+            "field": {
+              "api_name": "Billing_Code"
+            }
+          },
+          {
+            "sequence_number": 8,
+            "field": {
+              "api_name": "Shipping_Code"
+            }
+          },
+          {
+            "sequence_number": 9,
+            "field": {
+              "api_name": "Billing_Country"
+            }
+          },
+          {
+            "sequence_number": 10,
+            "field": {
+              "api_name": "Shipping_Country"
+            }
+          }
+        ],
+        "type": "used"
+      },
+      {
+        "display_label": "Purchase Items",
+        "sequence_number": 3,
+        "tab_traversal": 2,
+        "api_name": "Purchase Items",
+        "column_count": 1,
+        "name": "Purchase Items",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "Sequence_Number"
+            }
+          },
+          {
+            "sequence_number": 14,
+            "field": {
+              "api_name": "Product_Name"
+            }
+          },
+          {
+            "sequence_number": 14,
+            "field": {
+              "api_name": "Price_Book_Name"
+            }
+          },
+          {
+            "sequence_number": 15,
+            "field": {
+              "api_name": "Description"
+            }
+          },
+          {
+            "sequence_number": 16,
+            "field": {
+              "api_name": "Quantity"
+            }
+          },
+          {
+            "sequence_number": 17,
+            "field": {
+              "api_name": "List_Price"
+            }
+          },
+          {
+            "sequence_number": 18,
+            "field": {
+              "api_name": "Total"
+            }
+          },
+          {
+            "sequence_number": 19,
+            "field": {
+              "api_name": "Discount"
+            }
+          },
+          {
+            "sequence_number": 20,
+            "field": {
+              "api_name": "Total_After_Discount"
+            }
+          },
+          {
+            "sequence_number": 21,
+            "field": {
+              "api_name": "Tax"
+            }
+          },
+          {
+            "sequence_number": 22,
+            "field": {
+              "api_name": "Net_Total"
+            }
+          },
+          {
+            "sequence_number": 23,
+            "field": {
+              "api_name": "Line_Tax"
+            }
+          }
+        ],
+        "type": "used"
+      },
+      {
+        "display_label": "Terms and Conditions",
+        "sequence_number": 4,
+        "tab_traversal": 1,
+        "api_name": "Terms and Conditions",
+        "column_count": 1,
+        "name": "Terms and Conditions",
+        "section_fields": [
+          {
+            "sequence_number": 8,
+            "field": {
+              "api_name": "Terms_and_Conditions"
+            }
+          }
+        ],
+        "type": "used"
+      },
+      {
+        "display_label": "Description Information",
+        "sequence_number": 5,
+        "tab_traversal": 1,
+        "api_name": "Description Information",
+        "column_count": 1,
+        "name": "Description Information",
+        "section_fields": [
+          {
+            "sequence_number": 8,
+            "field": {
+              "api_name": "Description"
+            }
+          }
+        ],
+        "type": "used"
+      }
+    ]
+  },
+  "show_business_card": true,
+  "api_name": "Standard__s",
+  "name": "Standard",
+  "profile_properties": [
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "Administrator"
+      }
+    },
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "Standard"
+      }
+    },
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "ZDKProfile"
+      }
+    },
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "a"
+      }
+    }
+  ],
+  "source": "crm",
+  "fields": {
+    "_data": [
+      {
+        "field": {
+          "api_name": "Description",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Tracking_Number",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Billing_Street",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Shipping_Street",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Billing_City",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Shipping_City",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Billing_State",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Shipping_State",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Billing_Code",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Shipping_Code",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Billing_Country",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Shipping_Country",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Terms_and_Conditions",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Requisition_No",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Purchase_Items",
+          "formula": null
+        },
+        "default_value": null,
+        "required": true
+      },
+      {
+        "field": {
+          "api_name": "Sub_Total",
+          "formula": {
+            "return_type": "currency",
+            "expression": "SUM(${PurchaseItems.Net_Total})"
+          }
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Discount",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Tax",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Adjustment",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Grand_Total",
+          "formula": {
+            "return_type": "currency",
+            "expression": "${Sub_Total}-${Discount}+${Tax}+${Adjustment}"
+          }
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Created_Time",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "PO_Number",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Subject",
+          "formula": null
+        },
+        "default_value": null,
+        "required": true
+      },
+      {
+        "field": {
+          "api_name": "Vendor_Name",
+          "formula": null
+        },
+        "default_value": null,
+        "required": true
+      },
+      {
+        "field": {
+          "api_name": "Contact_Name",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "PO_Date",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Due_Date",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Carrier",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Excise_Duty",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Sales_Commission",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Status",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Owner",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Created_By",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Modified_By",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Record_Status__s",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Modified_Time",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Tag",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "id",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Locked__s",
+          "formula": null
+        },
+        "default_value": false,
+        "required": false
+      }
+    ]
+  },
+  "status": "active"
+}

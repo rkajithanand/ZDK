@@ -1,0 +1,549 @@
+{
+  "mode": {
+    "sections": [
+      {
+        "display_label": "User Information",
+        "sequence_number": 1,
+        "tab_traversal": 2,
+        "api_name": "User Information",
+        "column_count": 1,
+        "name": "User Information",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "first_name"
+            }
+          },
+          {
+            "sequence_number": 2,
+            "field": {
+              "api_name": "last_name"
+            }
+          },
+          {
+            "sequence_number": 3,
+            "field": {
+              "api_name": "email"
+            }
+          },
+          {
+            "sequence_number": 4,
+            "field": {
+              "api_name": "role"
+            }
+          },
+          {
+            "sequence_number": 5,
+            "field": {
+              "api_name": "profile"
+            }
+          },
+          {
+            "sequence_number": 6,
+            "field": {
+              "api_name": "created_by"
+            }
+          },
+          {
+            "sequence_number": 7,
+            "field": {
+              "api_name": "alias"
+            }
+          },
+          {
+            "sequence_number": 8,
+            "field": {
+              "api_name": "Modified_By"
+            }
+          },
+          {
+            "sequence_number": 9,
+            "field": {
+              "api_name": "created_time"
+            }
+          },
+          {
+            "sequence_number": 10,
+            "field": {
+              "api_name": "Modified_Time"
+            }
+          },
+          {
+            "sequence_number": 11,
+            "field": {
+              "api_name": "phone"
+            }
+          },
+          {
+            "sequence_number": 12,
+            "field": {
+              "api_name": "mobile"
+            }
+          },
+          {
+            "sequence_number": 13,
+            "field": {
+              "api_name": "website"
+            }
+          },
+          {
+            "sequence_number": 14,
+            "field": {
+              "api_name": "fax"
+            }
+          },
+          {
+            "sequence_number": 15,
+            "field": {
+              "api_name": "dob"
+            }
+          },
+          {
+            "sequence_number": 16,
+            "field": {
+              "api_name": "Isonline"
+            }
+          },
+          {
+            "sequence_number": 16,
+            "field": {
+              "api_name": "status"
+            }
+          },
+          {
+            "sequence_number": 17,
+            "field": {
+              "api_name": "full_name"
+            }
+          },
+          {
+            "sequence_number": 18,
+            "field": {
+              "api_name": "confirm"
+            }
+          },
+          {
+            "sequence_number": 19,
+            "field": {
+              "api_name": "zuid"
+            }
+          },
+          {
+            "sequence_number": 21,
+            "field": {
+              "api_name": "date_format"
+            }
+          },
+          {
+            "sequence_number": 22,
+            "field": {
+              "api_name": "sort_order_preference__s"
+            }
+          },
+          {
+            "sequence_number": 23,
+            "field": {
+              "api_name": "name_format__s"
+            }
+          },
+          {
+            "sequence_number": 24,
+            "field": {
+              "api_name": "type__s"
+            }
+          },
+          {
+            "sequence_number": 25,
+            "field": {
+              "api_name": "status_reason__s"
+            }
+          },
+          {
+            "sequence_number": 26,
+            "field": {
+              "api_name": "Source__s"
+            }
+          }
+        ],
+        "type": "used"
+      },
+      {
+        "display_label": "Address Information",
+        "sequence_number": 2,
+        "tab_traversal": 2,
+        "api_name": "Address Information",
+        "column_count": 1,
+        "name": "Address Information",
+        "section_fields": [
+          {
+            "sequence_number": 1,
+            "field": {
+              "api_name": "street"
+            }
+          },
+          {
+            "sequence_number": 2,
+            "field": {
+              "api_name": "city"
+            }
+          },
+          {
+            "sequence_number": 3,
+            "field": {
+              "api_name": "state"
+            }
+          },
+          {
+            "sequence_number": 4,
+            "field": {
+              "api_name": "zip"
+            }
+          },
+          {
+            "sequence_number": 5,
+            "field": {
+              "api_name": "country"
+            }
+          }
+        ],
+        "type": "used"
+      }
+    ]
+  },
+  "show_business_card": true,
+  "api_name": "Standard__s",
+  "name": "Standard",
+  "profile_properties": [
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "Administrator"
+      }
+    },
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "Standard"
+      }
+    },
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "ZDKProfile"
+      }
+    },
+    {
+      "default": true,
+      "visible": true,
+      "profile": {
+        "api_name": "a"
+      }
+    }
+  ],
+  "source": "crm",
+  "fields": {
+    "_data": [
+      {
+        "field": {
+          "api_name": "locale",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "sort_order_preference__s",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "name_format__s",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Source__s",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "street",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "city",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "state",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "country",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "zip",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "zuid",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "country_locale",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "time_zone",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "time_format",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "date_format",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "number_separator",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "decimal_separator",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "mobile",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "last_name",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "email",
+          "formula": null
+        },
+        "default_value": null,
+        "required": true
+      },
+      {
+        "field": {
+          "api_name": "alias",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "dob",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "created_by",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Modified_By",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "created_time",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "Modified_Time",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "phone",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "first_name",
+          "formula": null
+        },
+        "default_value": null,
+        "required": true
+      },
+      {
+        "field": {
+          "api_name": "website",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "fax",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "status",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "status_reason__s",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "type__s",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "full_name",
+          "formula": null
+        },
+        "default_value": null,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "confirm",
+          "formula": null
+        },
+        "default_value": false,
+        "required": false
+      },
+      {
+        "field": {
+          "api_name": "profile",
+          "formula": null
+        },
+        "default_value": null,
+        "required": true
+      },
+      {
+        "field": {
+          "api_name": "role",
+          "formula": null
+        },
+        "default_value": null,
+        "required": true
+      },
+      {
+        "field": {
+          "api_name": "Isonline",
+          "formula": null
+        },
+        "default_value": false,
+        "required": false
+      }
+    ]
+  },
+  "status": "active"
+}

@@ -1,0 +1,211 @@
+{
+  "system_mandatory": false,
+  "associated_module": null,
+  "private": null,
+  "webhook": true,
+  "json_type": "string",
+  "crypt": null,
+  "field_label": "Industry",
+  "tooltip": null,
+  "textarea": null,
+  "created_source": "default",
+  "type": "used",
+  "field_read_only": false,
+  "display_label": "Industry",
+  "association_details": null,
+  "multi_module_lookup": null,
+  "currency": null,
+  "multiuserlookup": null,
+  "custom_field": false,
+  "filterable": true,
+  "lookup": null,
+  "length": 120,
+  "profile_permissions": [
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "Administrator"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "Standard"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "ZDKProfile"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "a"
+      }
+    }
+  ],
+  "pick_list_values_sorted_lexically": false,
+  "sortable": true,
+  "external": null,
+  "api_name": "Industry",
+  "unique": null,
+  "data_type": "picklist",
+  "sub_module": null,
+  "formula": null,
+  "hipaa_compliance_enabled": null,
+  "decimal_place": null,
+  "multiselectlookup": null,
+  "pick_list_values": [
+    {
+      "display_value": "-None-",
+      "sequence_number": 1,
+      "actual_value": "-None-",
+      "type": "used"
+    },
+    {
+      "display_value": "ASP (Application Service Provider)",
+      "sequence_number": 2,
+      "actual_value": "ASP (Application Service Provider)",
+      "type": "used"
+    },
+    {
+      "display_value": "Data/Telecom OEM",
+      "sequence_number": 3,
+      "actual_value": "Data/Telecom OEM",
+      "type": "used"
+    },
+    {
+      "display_value": "ERP (Enterprise Resource Planning)",
+      "sequence_number": 4,
+      "actual_value": "ERP (Enterprise Resource Planning)",
+      "type": "used"
+    },
+    {
+      "display_value": "Government/Military",
+      "sequence_number": 5,
+      "actual_value": "Government/Military",
+      "type": "used"
+    },
+    {
+      "display_value": "Large Enterprise",
+      "sequence_number": 6,
+      "actual_value": "Large Enterprise",
+      "type": "used"
+    },
+    {
+      "display_value": "ManagementISV",
+      "sequence_number": 7,
+      "actual_value": "ManagementISV",
+      "type": "used"
+    },
+    {
+      "display_value": "MSP (Management Service Provider)",
+      "sequence_number": 8,
+      "actual_value": "MSP (Management Service Provider)",
+      "type": "used"
+    },
+    {
+      "display_value": "Network Equipment Enterprise",
+      "sequence_number": 9,
+      "actual_value": "Network Equipment (Enterprise)",
+      "type": "used"
+    },
+    {
+      "display_value": "Non-management ISV",
+      "sequence_number": 10,
+      "actual_value": "Non-management ISV",
+      "type": "used"
+    },
+    {
+      "display_value": "Optical Networking",
+      "sequence_number": 11,
+      "actual_value": "Optical Networking",
+      "type": "used"
+    },
+    {
+      "display_value": "Service Provider",
+      "sequence_number": 12,
+      "actual_value": "Service Provider",
+      "type": "used"
+    },
+    {
+      "display_value": "Small/Medium Enterprise",
+      "sequence_number": 13,
+      "actual_value": "Small/Medium Enterprise",
+      "type": "used"
+    },
+    {
+      "display_value": "Storage Equipment",
+      "sequence_number": 14,
+      "actual_value": "Storage Equipment",
+      "type": "used"
+    },
+    {
+      "display_value": "Storage Service Provider",
+      "sequence_number": 15,
+      "actual_value": "Storage Service Provider",
+      "type": "used"
+    },
+    {
+      "display_value": "Systems Integrator",
+      "sequence_number": 16,
+      "actual_value": "Systems Integrator",
+      "type": "used"
+    },
+    {
+      "display_value": "Wireless Industry",
+      "sequence_number": 17,
+      "actual_value": "Wireless Industry",
+      "type": "used"
+    },
+    {
+      "display_value": "Financial Services",
+      "sequence_number": 18,
+      "actual_value": "Financial Services",
+      "type": "used"
+    },
+    {
+      "display_value": "Education",
+      "sequence_number": 19,
+      "actual_value": "Education",
+      "type": "used"
+    },
+    {
+      "display_value": "Technology",
+      "sequence_number": 20,
+      "actual_value": "Technology",
+      "type": "used"
+    },
+    {
+      "display_value": "Real Estate",
+      "sequence_number": 21,
+      "actual_value": "Real Estate",
+      "type": "used"
+    },
+    {
+      "display_value": "Consulting",
+      "sequence_number": 22,
+      "actual_value": "Consulting",
+      "type": "used"
+    },
+    {
+      "display_value": "Communications",
+      "sequence_number": 23,
+      "actual_value": "Communications",
+      "type": "used"
+    },
+    {
+      "display_value": "Manufacturing",
+      "sequence_number": 24,
+      "actual_value": "Manufacturing",
+      "type": "used"
+    }
+  ],
+  "auto_number": null
+}

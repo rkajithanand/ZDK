@@ -1,0 +1,361 @@
+{
+  "system_mandatory": false,
+  "associated_module": null,
+  "private": null,
+  "webhook": false,
+  "json_type": "string",
+  "crypt": null,
+  "field_label": "Date Format",
+  "tooltip": null,
+  "textarea": null,
+  "created_source": "default",
+  "type": "used",
+  "field_read_only": false,
+  "display_label": "Date Format",
+  "association_details": null,
+  "multi_module_lookup": null,
+  "currency": null,
+  "multiuserlookup": null,
+  "custom_field": false,
+  "filterable": true,
+  "lookup": null,
+  "length": 120,
+  "profile_permissions": [
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "Administrator"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "Standard"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "ZDKProfile"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "a"
+      }
+    }
+  ],
+  "pick_list_values_sorted_lexically": false,
+  "sortable": true,
+  "external": null,
+  "api_name": "date_format",
+  "unique": null,
+  "data_type": "picklist",
+  "sub_module": null,
+  "formula": null,
+  "hipaa_compliance_enabled": null,
+  "decimal_place": null,
+  "multiselectlookup": null,
+  "pick_list_values": [
+    {
+      "display_value": "dd-MM-yyyy",
+      "sequence_number": 1,
+      "actual_value": "DMY1",
+      "type": null
+    },
+    {
+      "display_value": "dd/MM/yyyy",
+      "sequence_number": 2,
+      "actual_value": "DMY2",
+      "type": null
+    },
+    {
+      "display_value": "dd.MM.yyyy",
+      "sequence_number": 3,
+      "actual_value": "DMY3",
+      "type": null
+    },
+    {
+      "display_value": "dd MM yyyy",
+      "sequence_number": 4,
+      "actual_value": "DMY4",
+      "type": null
+    },
+    {
+      "display_value": "dd-MM-yy",
+      "sequence_number": 5,
+      "actual_value": "DMY5",
+      "type": null
+    },
+    {
+      "display_value": "dd/MM/yy",
+      "sequence_number": 6,
+      "actual_value": "DMY6",
+      "type": null
+    },
+    {
+      "display_value": "dd.MM.yy",
+      "sequence_number": 7,
+      "actual_value": "DMY7",
+      "type": null
+    },
+    {
+      "display_value": "d.MM.yy",
+      "sequence_number": 8,
+      "actual_value": "DMY8",
+      "type": null
+    },
+    {
+      "display_value": "d-M-yy",
+      "sequence_number": 9,
+      "actual_value": "DMY9",
+      "type": null
+    },
+    {
+      "display_value": "d/M/yy",
+      "sequence_number": 10,
+      "actual_value": "DMY10",
+      "type": null
+    },
+    {
+      "display_value": "d.M.yy",
+      "sequence_number": 11,
+      "actual_value": "DMY11",
+      "type": null
+    },
+    {
+      "display_value": "d.M.yy.",
+      "sequence_number": 12,
+      "actual_value": "DMY12",
+      "type": null
+    },
+    {
+      "display_value": "d-M-yyyy",
+      "sequence_number": 13,
+      "actual_value": "DMY13",
+      "type": null
+    },
+    {
+      "display_value": "d/M/yyyy",
+      "sequence_number": 14,
+      "actual_value": "DMY14",
+      "type": null
+    },
+    {
+      "display_value": "d.M.yyyy",
+      "sequence_number": 15,
+      "actual_value": "DMY15",
+      "type": null
+    },
+    {
+      "display_value": "d. M. yyyy.",
+      "sequence_number": 16,
+      "actual_value": "DMY16",
+      "type": null
+    },
+    {
+      "display_value": "d. M. yyyy",
+      "sequence_number": 17,
+      "actual_value": "DMY17",
+      "type": null
+    },
+    {
+      "display_value": "d MMM, yyyy",
+      "sequence_number": 18,
+      "actual_value": "DMY18",
+      "type": null
+    },
+    {
+      "display_value": "dd MMM, yyyy",
+      "sequence_number": 19,
+      "actual_value": "DMY19",
+      "type": null
+    },
+    {
+      "display_value": "d. MMMM yyyy",
+      "sequence_number": 20,
+      "actual_value": "DMY20",
+      "type": null
+    },
+    {
+      "display_value": "dd.MM.yyyy.",
+      "sequence_number": 21,
+      "actual_value": "DMY21",
+      "type": null
+    },
+    {
+      "display_value": "dd.MM.yy.",
+      "sequence_number": 22,
+      "actual_value": "DMY22",
+      "type": null
+    },
+    {
+      "display_value": "yyyy-MM-dd",
+      "sequence_number": 23,
+      "actual_value": "YMD1",
+      "type": null
+    },
+    {
+      "display_value": "yyyy/MM/dd",
+      "sequence_number": 24,
+      "actual_value": "YMD2",
+      "type": null
+    },
+    {
+      "display_value": "yyyy.MM.dd",
+      "sequence_number": 25,
+      "actual_value": "YMD3",
+      "type": null
+    },
+    {
+      "display_value": "yyyy MM dd",
+      "sequence_number": 26,
+      "actual_value": "YMD4",
+      "type": null
+    },
+    {
+      "display_value": "yy/MM/dd",
+      "sequence_number": 27,
+      "actual_value": "YMD5",
+      "type": null
+    },
+    {
+      "display_value": "yy-MM-dd",
+      "sequence_number": 28,
+      "actual_value": "YMD6",
+      "type": null
+    },
+    {
+      "display_value": "yy.M.d",
+      "sequence_number": 29,
+      "actual_value": "YMD7",
+      "type": null
+    },
+    {
+      "display_value": "yy-M-d",
+      "sequence_number": 30,
+      "actual_value": "YMD8",
+      "type": null
+    },
+    {
+      "display_value": "yy. M. d",
+      "sequence_number": 31,
+      "actual_value": "YMD9",
+      "type": null
+    },
+    {
+      "display_value": "yyyy/M/d",
+      "sequence_number": 32,
+      "actual_value": "YMD10",
+      "type": null
+    },
+    {
+      "display_value": "yyyy年MM月dd日",
+      "sequence_number": 33,
+      "actual_value": "YMD11",
+      "type": null
+    },
+    {
+      "display_value": "yy年M月d日",
+      "sequence_number": 34,
+      "actual_value": "YMD12",
+      "type": null
+    },
+    {
+      "display_value": "yyyy.MM.dd.",
+      "sequence_number": 35,
+      "actual_value": "YMD13",
+      "type": null
+    },
+    {
+      "display_value": "yyyy. MM. dd",
+      "sequence_number": 36,
+      "actual_value": "YMD14",
+      "type": null
+    },
+    {
+      "display_value": "MM-dd-yyyy",
+      "sequence_number": 37,
+      "actual_value": "MDY1",
+      "type": null
+    },
+    {
+      "display_value": "MM/dd/yyyy",
+      "sequence_number": 38,
+      "actual_value": "MDY2",
+      "type": null
+    },
+    {
+      "display_value": "MM.dd.yyyy",
+      "sequence_number": 39,
+      "actual_value": "MDY3",
+      "type": null
+    },
+    {
+      "display_value": "MM dd yyyy",
+      "sequence_number": 40,
+      "actual_value": "MDY4",
+      "type": null
+    },
+    {
+      "display_value": "MM-dd-yy",
+      "sequence_number": 41,
+      "actual_value": "MDY5",
+      "type": null
+    },
+    {
+      "display_value": "MM/dd/yy",
+      "sequence_number": 42,
+      "actual_value": "MDY6",
+      "type": null
+    },
+    {
+      "display_value": "M/dd/yy",
+      "sequence_number": 43,
+      "actual_value": "MDY7",
+      "type": null
+    },
+    {
+      "display_value": "MMM-dd-yyyy",
+      "sequence_number": 44,
+      "actual_value": "MDY8",
+      "type": null
+    },
+    {
+      "display_value": "MMM dd, yyyy",
+      "sequence_number": 45,
+      "actual_value": "MDY9",
+      "type": null
+    },
+    {
+      "display_value": "MMM d, yyyy",
+      "sequence_number": 46,
+      "actual_value": "MDY10",
+      "type": null
+    },
+    {
+      "display_value": "MMMM d, yyyy",
+      "sequence_number": 47,
+      "actual_value": "MDY11",
+      "type": null
+    },
+    {
+      "display_value": "yyyy.dd.MM",
+      "sequence_number": 48,
+      "actual_value": "YDM1",
+      "type": null
+    },
+    {
+      "display_value": "yy.d.M",
+      "sequence_number": 49,
+      "actual_value": "YDM2",
+      "type": null
+    }
+  ],
+  "auto_number": null
+}

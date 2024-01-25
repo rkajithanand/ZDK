@@ -1,0 +1,68 @@
+{
+  "system_mandatory": false,
+  "associated_module": {
+    "api_name": "File_Upload_1__s"
+  },
+  "private": null,
+  "webhook": true,
+  "json_type": "jsonarray",
+  "crypt": null,
+  "field_label": "File Upload 1",
+  "tooltip": null,
+  "textarea": null,
+  "created_source": "default",
+  "type": "used",
+  "field_read_only": false,
+  "display_label": "File Upload 1",
+  "association_details": null,
+  "multi_module_lookup": null,
+  "currency": null,
+  "multiuserlookup": null,
+  "custom_field": true,
+  "filterable": true,
+  "lookup": null,
+  "length": 1,
+  "profile_permissions": [
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "Administrator"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "Standard"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "ZDKProfile"
+      }
+    },
+    {
+      "permission_type": "read_write",
+      "visible": true,
+      "profile": {
+        "api_name": "a"
+      }
+    }
+  ],
+  "pick_list_values_sorted_lexically": false,
+  "sortable": false,
+  "external": null,
+  "api_name": "File_Upload_1",
+  "unique": null,
+  "data_type": "fileupload",
+  "sub_module": null,
+  "formula": null,
+  "hipaa_compliance_enabled": null,
+  "decimal_place": null,
+  "multiselectlookup": null,
+  "pick_list_values": null,
+  "auto_number": null
+}

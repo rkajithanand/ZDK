@@ -1,0 +1,32 @@
+{
+  "visibility": 1,
+  "emailTemplate_support": false,
+  "profiles": [
+    {
+      "api_name": "Administrator"
+    },
+    {
+      "api_name": "ZDKProfile"
+    },
+    {
+      "api_name": "a"
+    }
+  ],
+  "description": null,
+  "filter_supported": false,
+  "display_field": null,
+  "show_as_tab": true,
+  "web_link": null,
+  "singular_label": "Social",
+  "sequence_number": 25,
+  "inventory_template_supported": false,
+  "api_supported": false,
+  "plural_label": "Social",
+  "api_name": "Social",
+  "triggers_supported": false,
+  "scoring_supported": false,
+  "webform_supported": false,
+  "module_name": "Social",
+  "parent_module": null,
+  "isBlueprintSupported": false
+}
