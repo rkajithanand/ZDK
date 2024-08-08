@@ -119,3 +119,18 @@ Response Headers{"server":"ZGS","date":"Thu, 08 Aug 2024 05:53:02 GMT","content-
 ├──────────────────────────────────────────────────┼─────────────────────────┼─────────────────────────┤
 │ crm/meta/profiles/ZDKProfile.profiles-meta.json  │ profiles                │ added                   │
 └──────────────────────────────────────────────────┴─────────────────────────┴─────────────────────────┘
+[debug] [2024-08-08 11:31:22] : >>>> HTTP REQUEST : POST https://www.zohoapis.com/crm/zdk/v6/pull 
+
+[debug] [2024-08-08 11:31:23] : <<<< HTTP RESPONSE : 200
+Response Headers{"server":"ZGS","date":"Thu, 08 Aug 2024 06:01:25 GMT","content-type":"application/zip;charset=UTF-8","content-length":"6976","connection":"close","set-cookie":["zalb_1a99390653=b9066b943e824462350ddacf813f84e9; Path=/","crmcsr=b2ddeb08-c02f-4170-81aa-13ceaf461bad;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b2ddeb08-c02f-4170-81aa-13ceaf461bad;path=/;SameSite=Strict;Secure;priority=high"],"referrer-policy":"strict-origin","x-content-type-options":"nosniff","content-security-policy":"default-src 'none';frame-ancestors 'self'; report-uri https://logsapi.zoho.com/csplog?service=crm","x-xss-protection":"1; mode=block","cache-control":"no-store, no-cache, must-revalidate, private","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"SAMEORIGIN","x-accesstoken-reset":"2024-08-08T12:21:47+05:30","clientversion":"8865422","clientsubversion":"2d6b0d130439b6660b1b7b40bb21298f","content-disposition":"attachment;filename=\"response.zip\"","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-08-08 11:31:23] : >>>> HTTP REQUEST : GET https://www.zohoapis.com/crm/v6/settings/widgets 
+
+[debug] [2024-08-08 11:31:24] : <<<< HTTP RESPONSE : 200
+Response Headers{"server":"ZGS","date":"Thu, 08 Aug 2024 06:01:27 GMT","content-type":"application/json;charset=UTF-8","content-length":"3427","connection":"close","set-cookie":["zalb_1a99390653=d9f95bb5df27bd3e0983ea68c0da5a8d; Path=/","crmcsr=7221f1bb-6aca-4ce0-86ed-862a7fcdc434;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7221f1bb-6aca-4ce0-86ed-862a7fcdc434;path=/;SameSite=Strict;Secure;priority=high"],"referrer-policy":"strict-origin","x-content-type-options":"nosniff","content-security-policy":"default-src 'none';frame-ancestors 'self'; report-uri https://logsapi.zoho.com/csplog?service=crm","x-xss-protection":"1; mode=block","cache-control":"no-store, no-cache, must-revalidate, private","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"SAMEORIGIN","x-accesstoken-reset":"2024-08-08T12:21:47+05:30","clientversion":"8865422","clientsubversion":"2d6b0d130439b6660b1b7b40bb21298f","content-disposition":"attachment; filename=response.json","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-08-08 11:31:25] : ✔ 
+No conflicts are present
+Try zdk org:pull:update
+Use --help for more information
+[info] [2024-08-08 11:31:32] : ✔ updated succesfully
