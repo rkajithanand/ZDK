@@ -1,0 +1,16 @@
+{
+    "resource_type": "specific",
+    "resources": [
+        {
+            "resource_type": "profiles",
+            "resources": [
+                {
+                    "api_name": "Standard"
+                },
+                {
+                    "api_name": "ZDKProfile"
+                }
+            ]
+        }
+    ]
+}
