@@ -20,12 +20,12 @@ node {
 
  	withEnv(["HOME=${env.WORKSPACE}"]) {	
 
-		stage('Authorize to ZDK') {
-			rc = command "${toolbelt}/zdk auth:login"
-		    if (rc != 0) {
-			error 'Salesforce org authorization failed.'
-		    }
-		}
+		// stage('Authorize to ZDK') {
+		// 	rc = command "${toolbelt}/zdk auth:login"
+		//     if (rc != 0) {
+		// 	error 'Salesforce org authorization failed.'
+		//     }
+		// }
 
 		stage('Deploy and Run Tests') {
 		    rc = command "${toolbelt}/zdk org:push"
