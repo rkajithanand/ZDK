@@ -28,6 +28,7 @@ node {
 		// }
 
 		stage('Deploy and Run Tests') {
+		 	command "pwd"
 		    rc = command "${toolbelt}/zdk org:push"
 		    if (rc != 0) {
 			error 'Salesforce deploy and test run failed.'
