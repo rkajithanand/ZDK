@@ -7,7 +7,7 @@ pipeline {
         stage('Push') {
             // Allocate an agent for this stage
             // This block ensures the commands are run on an available agent.
-            node {
+            steps {
                 echo 'Started the push...'
                 sh 'zdk org:push'
             }
