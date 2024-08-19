@@ -1,7 +1,7 @@
 #!groovy
 
 pipeline {
-    agent none  // No agent allocated at the start
+    agent any  // No agent allocated at the start
 
     stages {
         stage('Push') {
