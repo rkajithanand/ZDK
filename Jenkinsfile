@@ -1,55 +1,30 @@
 #!groovy
 
-node {
+pipeline {
+    agent none  // No agent allocated at the start
 
-    def toolbelt = tool 'toolbelt'
+    stages {
+        stage('Push') {
+            // Allocate an agent for this stage
+            // This block ensures the commands are run on an available agent.
+            node {
+                echo 'Started the push...'
+                sh 'zdk org:push'
+            }
+        }
 
-    // -------------------------------------------------------------------------
-    // Check out code from source control.
-    // -------------------------------------------------------------------------
+        // stage('Test') {
+        //     node {
+        //         echo 'Running tests...'
+        //         sh 'echo "Tests executed."'
+        //     }
+        // }
 
-    stage('checkout source') {
-        checkout scm
-    }
-
-
-    // -------------------------------------------------------------------------
-    // Run all the enclosed stages with access to the Salesforce
-    // JWT key credentials.
-    // -------------------------------------------------------------------------
-
- 	withEnv(["HOME=${env.WORKSPACE}"]) {	
-
-		// stage('Authorize to ZDK') {
-		// 	rc = command "${toolbelt}/zdk auth:login"
-		//     if (rc != 0) {
-		// 	error 'Salesforce org authorization failed.'
-		//     }
-		// }
-
-		stage('ZDK Push') {
-		    rc = command "${toolbelt}/zdk org:push"
-		    if (rc != 0) {
-			error 'ZDK Push Failed'
-		    }
-		}
-
-		// stage('Validate the results') {
-		//         for(int i = 0 ; i < 10 ; i++)
-		//         {
-		//   		    rc = command "${toolbelt}/zdk org:push"
-		//   		    if (rc != 0) {
-		//   			error 'Salesforce deploy and test run failed.'
-		//   		    }
-		//         }
-		// }
-  }
-}
-
-def command(script) {
-    if (isUnix()) {
-        return sh(returnStatus: true, script: script);
-    } else {
-		return bat(returnStatus: true, script: script);
+        // stage('Deploy') {
+        //     node {
+        //         echo 'Deploying...'
+        //         sh 'echo "Application deployed."'
+        //     }
+        // }
     }
 }
