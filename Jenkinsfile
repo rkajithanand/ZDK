@@ -1,15 +1,16 @@
 #!groovy
 
-pipeline {
+node {
+
     def toolbelt = tool 'toolbelt'
 
     // -------------------------------------------------------------------------
     // Check out code from source control.
     // -------------------------------------------------------------------------
 
-    // stage('checkout source') {
-    //     checkout scm
-    // }
+    stage('checkout source') {
+        checkout scm
+    }
 
 
     // -------------------------------------------------------------------------
@@ -26,12 +27,11 @@ pipeline {
 		//     }
 		// }
 
-		stage('Deploy and Run Tests') {
-			def command = "${toolbelt}/zdk org:push"  // Replace with your command
-			def process = command.execute()  // Execute the command
-			def output = process.text  // Capture the output as a string
-			
-			println "Output:\n$output"  // Print the command output
+		stage('ZDK Push') {
+		    rc = command "${toolbelt}/zdk org:push"
+		    if (rc != 0) {
+			error 'ZDK Push Failed'
+		    }
 		}
 
 		// stage('Validate the results') {
