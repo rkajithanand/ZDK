@@ -8,9 +8,9 @@ node {
     // Check out code from source control.
     // -------------------------------------------------------------------------
 
-    stage('checkout source') {
-        checkout scm
-    }
+    // stage('checkout source') {
+    //     checkout scm
+    // }
 
 
     // -------------------------------------------------------------------------
