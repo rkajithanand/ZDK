@@ -5,7 +5,7 @@
             "resource_type": "profiles",
             "resources": [
                 {
-                    "api_name": "ZDKProfile"
+                    "api_name": "*"
                 }
             ]
         }
