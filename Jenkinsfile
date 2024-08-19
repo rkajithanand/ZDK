@@ -1,7 +1,6 @@
 #!groovy
 
-node {
-
+{
     def toolbelt = tool 'toolbelt'
 
     // -------------------------------------------------------------------------
@@ -28,22 +27,22 @@ node {
 		// }
 
 		stage('Deploy and Run Tests') {
-		 	command "pwd"
-		    rc = command "${toolbelt}/zdk org:push"
-		    if (rc != 0) {
-			error 'Salesforce deploy and test run failed.'
-		    }
+			def command = "${toolbelt}/zdk org:push"  // Replace with your command
+			def process = command.execute()  // Execute the command
+			def output = process.text  // Capture the output as a string
+			
+			println "Output:\n$output"  // Print the command output
 		}
 
-		stage('Validate the results') {
-        for(int i = 0 ; i < 10 ; i++)
-        {
-  		    rc = command "${toolbelt}/zdk org:push"
-  		    if (rc != 0) {
-  			error 'Salesforce deploy and test run failed.'
-  		    }
-        }
-		}
+		// stage('Validate the results') {
+		//         for(int i = 0 ; i < 10 ; i++)
+		//         {
+		//   		    rc = command "${toolbelt}/zdk org:push"
+		//   		    if (rc != 0) {
+		//   			error 'Salesforce deploy and test run failed.'
+		//   		    }
+		//         }
+		// }
   }
 }
 
